@@ -1,0 +1,15 @@
+name,bus_id,bus_type,voltage
+Bus 0,0,PQ,380.0
+Bus 1,1,PQ,380.0
+Bus 10,10,PQ,380.0
+Bus 11,11,PQ,380.0
+Bus 12,12,REF,380.0
+Bus 13,13,PQ,380.0
+Bus 2,2,PQ,380.0
+Bus 3,3,PQ,380.0
+Bus 4,4,PQ,380.0
+Bus 5,5,PQ,380.0
+Bus 6,6,PQ,380.0
+Bus 7,7,PQ,380.0
+Bus 8,8,PQ,380.0
+Bus 9,9,PQ,380.0
