@@ -3,10 +3,7 @@ using PowerSystems
 function generatePowerSystem()
     
 
-
-
-generatePowerSystem()
-sys = System(230)
+sys = System(230,frequency = 50)
 
 nodes()=[
     Bus(
