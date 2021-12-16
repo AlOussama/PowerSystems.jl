@@ -52,7 +52,7 @@ add_components!(sys,branches())
 
 new_renewable() = [
 RenewableDispatch(
-            name = "PV-Anlage",
+            name = "Solar_2",
             available = true,
             bus = get_component(Bus, sys,"Node2"),
             active_power = 2.0,
@@ -66,7 +66,7 @@ RenewableDispatch(
         ),
 
         RenewableDispatch(
-            name = "WindOnshore",
+            name = "Wind Onshore_2",
             available = true,
             bus = get_component(Bus, sys,"Node2"),
             active_power = 1.5,
@@ -84,7 +84,7 @@ add_components!(sys,new_renewable())
 
 standard_dispatch() =[
 ThermalStandard(
-        name = "GasTurbine",
+        name = "Gas_1",
         available = true,
         status = true,
         bus = get_bus(sys, "Node1"),
