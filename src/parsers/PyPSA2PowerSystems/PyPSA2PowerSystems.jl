@@ -68,9 +68,11 @@ ps_gen = DataFrame(
 );
 
 # Branch DataFrame
-r_ohm_km =0.04 # Median der Werte im SciGrid (PyPSA Orginal)
-x_ohm_km = 0.32 # Median der Werte im SciGrid (PyPSA Orginal)
-c_nf_km = 11.5 # Median der Werte im SciGrid (PyPSA Orginal)
+r_ohm_km =0.04 
+x_ohm_km = 0.16
+c_nf_km = 11.5
+
+#  Daten für r,x und c aus Ursprungsdaten des Sci-Grind für Einzelleitung.
 
 branch_name=Vector{Union{Missing, String}}(missing, size_lines[1]);
 for x in 1:size_lines[1]

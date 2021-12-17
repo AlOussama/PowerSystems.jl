@@ -4,7 +4,7 @@ using PowerSimulationsDynamics
 PSID = PowerSimulationsDynamics
 using Sundials
 using OrdinaryDiffEq
-
+println("======START======")
 include("C:/Users/mariu/OneDrive/Masterarbeit/PowerSystems.jl/test/data_2_Bus_Test_Case.jl")
 include("C:/Users/mariu/OneDrive/Masterarbeit/PowerSystems.jl/src/add_dyn_components_v0.2.jl")
 
@@ -12,8 +12,10 @@ sys = generatePowerSystem();
 dyn_sys = add_dyn_components(sys,"csv");
 # ptintln(dyn_sys)
 
-gen_stoerung = get_component(DynamicGenerator, dyn_sys, "Gas_1")
+gen_stoerung = get_component(DynamicGenerator, dyn_sys, "00001_Gas_01")
 stoerung = GeneratorTrip(5.0, gen_stoerung)
+
+println(solve_powerflow(sys))
 
 time_span = (0.0, 30.0);
 # model = PSID.ResidualModel
@@ -30,5 +32,7 @@ PSID.execute!(
     
 );
 
-results = read_results(sim);
+# results = read_results(sim);
+# print(results)
 # print(sys)
+println("=====ENDE=====")
