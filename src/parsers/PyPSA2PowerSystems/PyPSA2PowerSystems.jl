@@ -2,13 +2,13 @@ using CSV
 using DataFrames
 
 println("=====START=====")
-pypsa_bus = DataFrame(CSV.File("04_PyPSA2PowerSystems/00_Input/buses.csv"));
-pypsa_gen_p_max = DataFrame(CSV.File("04_PyPSA2PowerSystems/00_Input/generators-p_max_pu.csv"));
-pypsa_gen = DataFrame(CSV.File("04_PyPSA2PowerSystems/00_Input/generators.csv"));
-pypsa_lines = DataFrame(CSV.File("04_PyPSA2PowerSystems/00_Input/lines.csv"));
-pypsa_loads = DataFrame(CSV.File("04_PyPSA2PowerSystems/00_Input/loads.csv"));
-pypsa_loads_p_set = DataFrame(CSV.File("04_PyPSA2PowerSystems/00_Input/loads-p_set.csv"));
-pypsa_storage = DataFrame(CSV.File("04_PyPSA2PowerSystems/00_Input/storage_units.csv"));
+pypsa_bus = DataFrame(CSV.File("src/parsers/PyPSA2PowerSystems/00_Input/buses.csv"));
+pypsa_gen_p_max = DataFrame(CSV.File("src/parsers/PyPSA2PowerSystems/00_Input/generators-p_max_pu.csv"));
+pypsa_gen = DataFrame(CSV.File("src/parsers/PyPSA2PowerSystems/00_Input/generators.csv"));
+pypsa_lines = DataFrame(CSV.File("src/parsers/PyPSA2PowerSystems/00_Input/lines.csv"));
+pypsa_loads = DataFrame(CSV.File("src/parsers/PyPSA2PowerSystems/00_Input/loads.csv"));
+pypsa_loads_p_set = DataFrame(CSV.File("src/parsers/PyPSA2PowerSystems/00_Input/loads-p_set.csv"));
+pypsa_storage = DataFrame(CSV.File("src/parsers/PyPSA2PowerSystems/00_Input/storage_units.csv"));
 
 
 size_bus = size(pypsa_bus);
@@ -152,11 +152,11 @@ ps_reserves = DataFrame(
     direction ="",
 );
 
-CSV.write("04_PyPSA2PowerSystems/01_Output/bus.csv",ps_bus)
-CSV.write("04_PyPSA2PowerSystems/01_Output/branch.csv",ps_branch)
-CSV.write("04_PyPSA2PowerSystems/01_Output/gen.csv",ps_gen)
+CSV.write("src/parsers/PyPSA2PowerSystems/01_Output/bus.csv",ps_bus)
+CSV.write("src/parsers/PyPSA2PowerSystems/01_Output/branch.csv",ps_branch)
+# CSV.write("04_PyPSA2PowerSystems/01_Output/gen.csv",ps_gen)
 # CSV.write("04_PyPSA2PowerSystems/01_Output/storage.csv",ps_storage);
-CSV.write("04_PyPSA2PowerSystems/01_Output/load.csv",ps_load);
+# CSV.write("04_PyPSA2PowerSystems/01_Output/load.csv",ps_load);
 # CSV.write("04_PyPSA2PowerSystems/01_Output/reserves.csv",ps_reserves);
 # CSV.write("04_PyPSA2PowerSystems/01_Output/ps_dc_branch.csv",ps_dc_branch);
 println("===== ENDE =====")
