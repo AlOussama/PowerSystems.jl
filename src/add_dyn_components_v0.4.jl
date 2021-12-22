@@ -35,7 +35,7 @@ len_split_hy_gen_str = length(split_str_hy_gen)
 # println(split_str_hy_gen)
 # ===========
 
-# ===== HydroDispatch =====
+# ===== HydroPumpedStorage =====
 ps_gen = get_components(HydroPumpedStorage,sys);
 anzahl_ps_gen = length(ps_gen);
 ps_gen_str = string(ps_gen);
@@ -273,6 +273,18 @@ if invertertype == "GridFollowing"
         kpc = 1.27,     #Current controller proportional gain
         kic = 14.3,     #Current controller integral gain
     );
+    # re_inner_contorl = CurrentControl(
+    #     kpv = 0.59,     #Voltage controller proportional gain
+    #     kiv = 736.0,    #Voltage controller integral gain
+    #     kffv = 0.0,     #Binary variable enabling the voltage feed-forward in output of current controllers
+    #     rv = 0.0,       #Virtual resistance in pu
+    #     lv = 0.2,       #Virtual inductance in pu
+    #     kpc = 1.27,     #Current controller proportional gain
+    #     kic = 14.3,     #Current controller integral gain
+    #     kffi = 0.0,     #Binary variable enabling the current feed-forward in output of current controllers
+    #     ωad = 50.0,     #Active damping low pass filter cut-off frequency
+    #     kad = 0.2,
+    # );
 elseif invertertype == "GridForming"
     re_inner_control = VoltageModeControl(
         kpv = 0.59,     #Voltage controller proportional gain

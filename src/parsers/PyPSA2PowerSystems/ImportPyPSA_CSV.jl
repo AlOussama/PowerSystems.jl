@@ -4,7 +4,7 @@ using Dates
 
 
 
-PATH = "04_PyPSA2PowerSystems/00_Input"
+# PATH = "04_PyPSA2PowerSystems/00_Input"
 
 rawsys = PowerSystems.PowerSystemTableData(
     "src/parsers/PyPSA2PowerSystems/01_Output", # Pfad zum CSV Ordner
