@@ -213,7 +213,7 @@ end;
 
 
 re_gen_name = Vector{Union{Missing, String}}(missing, anzahl_re_gen);
-invertertype = "GridFollowing"
+invertertype = "GridForming"
 
 for x in 1:anzahl_re_gen
     a = x - 1;
@@ -244,15 +244,15 @@ re_converter = AverageConverter(
     rated_current = 100.0,
 );
 
-re_outer_control = OuterControl(
-    VirtualInertia( # Active PowerControl
-        Ta = 2.0,
-        kd = 400.0, 
-        kω = 20.0),
-    ReactivePowerDroop( # Rective Power Control
-        kq = 0.2,
-        ωf = 1000.0),
-);
+# re_outer_control = OuterControl(
+#     VirtualInertia( # Active PowerControl
+#         Ta = 2.0,
+#         kd = 400.0, 
+#         kω = 20.0),
+#     ReactivePowerDroop( # Rective Power Control
+#         kq = 0.2,
+#         ωf = 1000.0),
+# );
 
 # re_inner_control = CurrentControl(
 #         kpv = 0.59,     #Voltage controller proportional gain
@@ -268,24 +268,48 @@ re_outer_control = OuterControl(
 #     );
 
 if invertertype == "GridFollowing"
-    re_inner_control = CurrentModeControl(
-        kffv = 0.0,     #Binary variable enabling the voltage feed-forward in output of current controllers
-        kpc = 1.27,     #Current controller proportional gain
-        kic = 14.3,     #Current controller integral gain
-    );
-    # re_inner_contorl = CurrentControl(
-    #     kpv = 0.59,     #Voltage controller proportional gain
-    #     kiv = 736.0,    #Voltage controller integral gain
+    # re_inner_control = CurrentModeControl(
     #     kffv = 0.0,     #Binary variable enabling the voltage feed-forward in output of current controllers
-    #     rv = 0.0,       #Virtual resistance in pu
-    #     lv = 0.2,       #Virtual inductance in pu
     #     kpc = 1.27,     #Current controller proportional gain
     #     kic = 14.3,     #Current controller integral gain
-    #     kffi = 0.0,     #Binary variable enabling the current feed-forward in output of current controllers
-    #     ωad = 50.0,     #Active damping low pass filter cut-off frequency
-    #     kad = 0.2,
     # );
+    re_outer_control = OuterControl(
+        VirtualInertia( # Active PowerControl
+            Ta = 2.0,
+            kd = 400.0, 
+            kω = 20.0),
+        ReactivePowerDroop( # Rective Power Control
+            kq = 0.2,
+            ωf = 1000.0,
+            ),
+    );
+
+    re_inner_control = CurrentControl(
+        kpv = 0.59,     #Voltage controller proportional gain
+        kiv = 736.0,    #Voltage controller integral gain
+        kffv = 0.0,     #Binary variable enabling the voltage feed-forward in output of current controllers
+        rv = 0.0,       #Virtual resistance in pu
+        lv = 0.2,       #Virtual inductance in pu
+        kpc = 1.27,     #Current controller proportional gain
+        kic = 14.3,     #Current controller integral gain
+        kffi = 0.0,     #Binary variable enabling the current feed-forward in output of current controllers
+        ωad = 50.0,     #Active damping low pass filter cut-off frequency
+        kad = 0.2,
+    );
 elseif invertertype == "GridForming"
+    re_outer_control = OuterControl(
+        VirtualInertia( # Active PowerControl
+            Ta = 2.0,
+            kd = 400.0, 
+            kω = 20.0
+        ),
+        ReactivePowerDroop( # Rective Power Control
+            kq = 0.2,
+            ωf = 1000.0,
+            V_ref = 380.0,
+            )
+    );
+
     re_inner_control = VoltageModeControl(
         kpv = 0.59,     #Voltage controller proportional gain
         kiv = 736.0,    #Voltage controller integral gain

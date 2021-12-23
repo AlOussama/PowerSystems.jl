@@ -266,13 +266,13 @@ re_freq_estimator = KauraPLL(
         ki_pll = 4.69,   #PLL integral gain
     );
 
-# re_filter = LCLFilter(
-#     lf = 0.08, 
-#     rf = 0.003, 
-#     cf = 0.074, 
-#     lg = 0.2, 
-#     rg = 0.01
-#     );
+re_filter = LCLFilter(
+    lf = 0.08, 
+    rf = 0.003, 
+    cf = 0.074, 
+    lg = 0.2, 
+    rg = 0.01
+    );
 
 inverter = DynamicInverter(
     name = get_name(re_stat_gen),

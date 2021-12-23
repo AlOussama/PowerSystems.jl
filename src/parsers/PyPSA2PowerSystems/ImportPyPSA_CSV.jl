@@ -3,6 +3,8 @@ using TimeSeries
 using Dates
 
 
+function generateSystem()
+    
 
 # PATH = "04_PyPSA2PowerSystems/00_Input"
 
@@ -16,4 +18,5 @@ rawsys = PowerSystems.PowerSystemTableData(
 
 sys = System(rawsys);
 
-print(sys)
+return sys
+end;
