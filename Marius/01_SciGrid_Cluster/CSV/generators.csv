@@ -1,0 +1,1424 @@
+name,bus,p_nom,carrier,marginal_cost,control
+1 Gas,0,121.0,Gas,50.0,Slack
+1 Hard Coal,0,272.0,Hard Coal,25.0,PQ
+102 Gas,7,67.9,Gas,50.0,PQ
+108 Run of River,11,63.1,Run of River,3.0,PQ
+108 Waste,11,38.0,Waste,6.0,PQ
+111 Gas,6,13.5,Gas,50.0,PQ
+112 Gas,6,13.5,Gas,50.0,PQ
+112 Run of River,6,11.1,Run of River,3.0,PQ
+114 Hard Coal,6,19.0,Hard Coal,25.0,PQ
+115 Brown Coal,11,4730.0,Brown Coal,10.0,PQ
+116 Gas,11,543.3,Gas,50.0,PQ
+118 Gas,11,95.0,Gas,50.0,PQ
+118 Waste,11,12.0,Waste,6.0,PQ
+119 Brown Coal,11,9.3,Brown Coal,10.0,PQ
+119 Gas,11,16.9,Gas,50.0,PQ
+119 Hard Coal,11,61.5,Hard Coal,25.0,PQ
+121 Brown Coal,11,24.6,Brown Coal,10.0,PQ
+123_220kV Brown Coal,11,3455.0,Brown Coal,10.0,PQ
+123_220kV Gas,11,96.5,Gas,50.0,PQ
+126 Gas,11,2.0,Gas,50.0,PQ
+126 Oil,11,60.0,Oil,100.0,PQ
+127 Brown Coal,11,1800.0,Brown Coal,10.0,PQ
+127 Waste,11,24.0,Waste,6.0,PQ
+128_220kV Run of River,3,36.4,Run of River,3.0,PQ
+129_220kV Hard Coal,11,61.5,Hard Coal,25.0,PQ
+12_220kV Gas,2,150.0,Gas,50.0,PQ
+12_220kV Waste,2,30.0,Waste,6.0,PQ
+130 Hard Coal,11,85.0,Hard Coal,25.0,PQ
+130 Waste,11,30.0,Waste,6.0,PQ
+131 Gas,11,586.3,Gas,50.0,PQ
+132 Storage Hydro,11,29.0,Storage Hydro,3.0,PQ
+133 Brown Coal,11,137.0,Brown Coal,10.0,PQ
+133 Waste,11,33.4,Waste,6.0,PQ
+134 Brown Coal,11,118.0,Brown Coal,10.0,PQ
+136 Gas,6,838.0,Gas,50.0,PQ
+136 Hard Coal,6,765.0,Hard Coal,25.0,PQ
+137 Gas,11,11.4,Gas,50.0,PQ
+139 Hard Coal,11,760.0,Hard Coal,25.0,PQ
+14 Run of River,4,27.0,Run of River,3.0,PQ
+140 Gas,6,11.1,Gas,50.0,PQ
+141 Gas,11,64.7,Gas,50.0,PQ
+142 Gas,11,9.8,Gas,50.0,PQ
+142 Hard Coal,11,449.0,Hard Coal,25.0,PQ
+145 Brown Coal,11,75.3,Brown Coal,10.0,PQ
+145 Gas,11,536.5,Gas,50.0,PQ
+145 Other,11,79.8,Other,32.0,PQ
+145 Waste,11,45.1,Waste,6.0,PQ
+146 Gas,11,84.0,Gas,50.0,PQ
+147 Gas,6,230.0,Gas,50.0,PQ
+148 Gas,11,10.2,Gas,50.0,PQ
+148 Oil,11,86.2,Oil,100.0,PQ
+148 Waste,11,53.7,Waste,6.0,PQ
+149 Run of River,11,128.7,Run of River,3.0,PQ
+150 Gas,11,15.8,Gas,50.0,PQ
+153 Waste,11,12.0,Waste,6.0,PQ
+155 Waste,6,12.6,Waste,6.0,PQ
+156_220kV Brown Coal,11,28.9,Brown Coal,10.0,PQ
+157_220kV Brown Coal,6,857.0,Brown Coal,10.0,PQ
+157_220kV Gas,6,22.0,Gas,50.0,PQ
+16 Gas,0,11.4,Gas,50.0,PQ
+160_220kV Hard Coal,12,103.0,Hard Coal,25.0,PQ
+160_220kV Waste,12,14.0,Waste,6.0,PQ
+161 Gas,12,58.58,Gas,50.0,PQ
+166 Gas,6,333.6,Gas,50.0,PQ
+166 Hard Coal,6,1324.5,Hard Coal,25.0,PQ
+167 Gas,6,26.0,Gas,50.0,PQ
+167 Run of River,6,46.9,Run of River,3.0,PQ
+169 Gas,11,33.7,Gas,50.0,PQ
+170 Gas,11,23.1,Gas,50.0,PQ
+170 Waste,11,61.5,Waste,6.0,PQ
+174 Gas,11,24.5,Gas,50.0,PQ
+174 Other,11,38.0,Other,32.0,PQ
+175 Hard Coal,11,95.0,Hard Coal,25.0,PQ
+175 Other,11,21.0,Other,32.0,PQ
+176 Gas,11,3.3,Gas,50.0,PQ
+177 Multiple,7,32.7,Multiple,28.0,PQ
+178 Gas,6,9.2,Gas,50.0,PQ
+178 Storage Hydro,6,15.0,Storage Hydro,3.0,PQ
+180 Gas,2,25.4,Gas,50.0,PQ
+180 Oil,2,333.5,Oil,100.0,PQ
+180 Waste,2,28.9,Waste,6.0,PQ
+183 Gas,8,22.5,Gas,50.0,PQ
+183 Hard Coal,8,766.0,Hard Coal,25.0,PQ
+183 Oil,8,38.0,Oil,100.0,PQ
+183 Waste,8,24.0,Waste,6.0,PQ
+184_220kV Gas,11,22.3,Gas,50.0,PQ
+185 Waste,11,33.1,Waste,6.0,PQ
+188 Gas,11,274.0,Gas,50.0,PQ
+18_220kV Gas,7,52.8,Gas,50.0,PQ
+19 Gas,1,10.6,Gas,50.0,PQ
+19 Hard Coal,1,370.0,Hard Coal,25.0,PQ
+190 Gas,13,13.4,Gas,50.0,PQ
+194 Hard Coal,11,1017.0,Hard Coal,25.0,PQ
+196 Hard Coal,11,695.0,Hard Coal,25.0,PQ
+196 Other,11,700.0,Other,32.0,PQ
+197 Run of River,11,40.1,Run of River,3.0,PQ
+198 Gas,6,15.0,Gas,50.0,PQ
+200 Brown Coal,11,27.5,Brown Coal,10.0,PQ
+200 Gas,11,7.4,Gas,50.0,PQ
+201_220kV Gas,8,58.1,Gas,50.0,PQ
+202 Gas,6,1870.1,Gas,50.0,PQ
+202 Nuclear,6,1329.0,Nuclear,8.0,PQ
+203 Gas,11,20.5,Gas,50.0,PQ
+204 Hard Coal,6,310.0,Hard Coal,25.0,PQ
+205 Gas,6,417.0,Gas,50.0,PQ
+209 Hard Coal,0,26.0,Hard Coal,25.0,PQ
+21 Gas,8,127.0,Gas,50.0,PQ
+21 Hard Coal,8,194.0,Hard Coal,25.0,PQ
+21 Waste,8,16.4,Waste,6.0,PQ
+210 Waste,0,14.7,Waste,6.0,PQ
+211 Hard Coal,3,721.0,Hard Coal,25.0,PQ
+211 Waste,3,11.6,Waste,6.0,PQ
+212 Run of River,3,24.0,Run of River,3.0,PQ
+213 Gas,10,104.6,Gas,50.0,PQ
+214 Gas,13,27.0,Gas,50.0,PQ
+215 Gas,13,47.2,Gas,50.0,PQ
+215 Waste,13,73.4,Waste,6.0,PQ
+217 Gas,7,108.0,Gas,50.0,PQ
+217 Hard Coal,7,508.0,Hard Coal,25.0,PQ
+217 Waste,7,17.0,Waste,6.0,PQ
+219 Gas,6,254.5,Gas,50.0,PQ
+219 Waste,6,34.0,Waste,6.0,PQ
+221 Geothermal,12,7.8,Geothermal,26.0,PQ
+222 Gas,12,99.0,Gas,50.0,PQ
+223 Gas,13,87.0,Gas,50.0,PQ
+224 Other,13,176.1,Other,32.0,PQ
+225 Gas,3,11.6,Gas,50.0,PQ
+225 Hard Coal,3,13.4,Hard Coal,25.0,PQ
+225 Waste,3,15.0,Waste,6.0,PQ
+226 Gas,0,20.0,Gas,50.0,PQ
+226 Run of River,0,0.1,Run of River,3.0,PQ
+227 Run of River,1,11.0,Run of River,3.0,PQ
+229 Gas,13,24.5,Gas,50.0,PQ
+229 Hard Coal,13,1958.0,Hard Coal,25.0,PQ
+22_220kV Oil,8,298.5,Oil,100.0,PQ
+233_220kV Gas,1,4.0,Gas,50.0,PQ
+233_220kV Hard Coal,1,20.7,Hard Coal,25.0,PQ
+235 Other,9,19.7,Other,32.0,PQ
+238 Run of River,3,12.1,Run of River,3.0,PQ
+239 Gas,3,800.0,Gas,50.0,PQ
+240 Gas,10,126.0,Gas,50.0,PQ
+245 Hard Coal,10,61.5,Hard Coal,25.0,PQ
+246 Hard Coal,10,510.0,Hard Coal,25.0,PQ
+247_220kV Oil,1,34.5,Oil,100.0,PQ
+247_220kV Run of River,1,633.2,Run of River,3.0,PQ
+248_220kV Hard Coal,6,895.0,Hard Coal,25.0,PQ
+249 Waste,6,14.6,Waste,6.0,PQ
+250_220kV Other,6,396.6,Other,32.0,PQ
+254 Gas,3,10.7,Gas,50.0,PQ
+255 Run of River,3,84.8,Run of River,3.0,PQ
+258 Gas,0,32.0,Gas,50.0,PQ
+258 Other,0,28.0,Other,32.0,PQ
+260 Hard Coal,13,138.5,Hard Coal,25.0,PQ
+266 Gas,4,59.9,Gas,50.0,PQ
+266 Oil,4,92.8,Oil,100.0,PQ
+266 Run of River,4,214.0,Run of River,3.0,PQ
+266 Waste,4,9.0,Waste,6.0,PQ
+26_220kV Nuclear,8,1410.0,Nuclear,8.0,PQ
+270 Gas,12,50.0,Gas,50.0,PQ
+275 Gas,3,42.0,Gas,50.0,PQ
+275 Other,3,100.0,Other,32.0,PQ
+275 Waste,3,12.5,Waste,6.0,PQ
+276 Hard Coal,3,110.0,Hard Coal,25.0,PQ
+276 Run of River,3,16.0,Run of River,3.0,PQ
+279_220kV Brown Coal,5,90.8,Brown Coal,10.0,PQ
+28 Hard Coal,8,260.0,Hard Coal,25.0,PQ
+28 Oil,8,101.0,Oil,100.0,PQ
+28 Run of River,8,311.8,Run of River,3.0,PQ
+281_220kV Gas,5,74.0,Gas,50.0,PQ
+282_220kV Oil,5,17.0,Oil,100.0,PQ
+285 Gas,12,18.1,Gas,50.0,PQ
+287 Gas,6,64.0,Gas,50.0,PQ
+288 Hard Coal,9,18.5,Hard Coal,25.0,PQ
+289 Gas,6,33.4,Gas,50.0,PQ
+289 Hard Coal,6,794.0,Hard Coal,25.0,PQ
+290 Waste,2,15.7,Waste,6.0,PQ
+291 Brown Coal,2,1105.0,Brown Coal,10.0,PQ
+292_220kV Brown Coal,5,20.3,Brown Coal,10.0,PQ
+292_220kV Gas,5,216.0,Gas,50.0,PQ
+292_220kV Waste,5,59.0,Waste,6.0,PQ
+294 Gas,5,13.5,Gas,50.0,PQ
+294 Waste,5,11.2,Waste,6.0,PQ
+295 Gas,0,119.0,Gas,50.0,PQ
+295 Hard Coal,0,43.3,Hard Coal,25.0,PQ
+298 Gas,0,37.5,Gas,50.0,PQ
+299 Hard Coal,0,690.0,Hard Coal,25.0,PQ
+3 Run of River,0,18.8,Run of River,3.0,PQ
+301 Gas,0,13.0,Gas,50.0,PQ
+302 Brown Coal,0,33.5,Brown Coal,10.0,PQ
+302 Gas,0,128.0,Gas,50.0,PQ
+302 Other,0,56.0,Other,32.0,PQ
+302 Storage Hydro,0,79.0,Storage Hydro,3.0,PQ
+302 Waste,0,14.7,Waste,6.0,PQ
+304 Gas,10,34.2,Gas,50.0,PQ
+304 Oil,10,24.8,Oil,100.0,PQ
+305 Nuclear,13,1310.0,Nuclear,8.0,PQ
+305 Oil,13,136.0,Oil,100.0,PQ
+308_220kV Gas,10,27.4,Gas,50.0,PQ
+308_220kV Nuclear,10,1275.0,Nuclear,8.0,PQ
+30_220kV Run of River,8,3.0,Run of River,3.0,PQ
+31 Gas,10,195.4,Gas,50.0,PQ
+310 Hard Coal,13,778.0,Hard Coal,25.0,PQ
+313 Brown Coal,5,875.0,Brown Coal,10.0,PQ
+315_220kV Run of River,1,77.4,Run of River,3.0,PQ
+316 Gas,1,75.8,Gas,50.0,PQ
+316 Waste,1,10.0,Waste,6.0,PQ
+318 Run of River,1,62.7,Run of River,3.0,PQ
+320 Gas,13,9.8,Gas,50.0,PQ
+321 Gas,9,0.2,Gas,50.0,PQ
+321 Waste,9,13.6,Waste,6.0,PQ
+322_220kV Gas,9,85.1,Gas,50.0,PQ
+323 Gas,5,12.9,Gas,50.0,PQ
+326 Gas,2,319.8,Gas,50.0,PQ
+327 Gas,2,26.9,Gas,50.0,PQ
+328 Run of River,4,36.5,Run of River,3.0,PQ
+329 Run of River,4,50.0,Run of River,3.0,PQ
+329 Storage Hydro,4,500.0,Storage Hydro,3.0,PQ
+32_220kV Gas,5,109.1,Gas,50.0,PQ
+33 Gas,0,31.8,Gas,50.0,PQ
+330 Nuclear,4,1410.0,Nuclear,8.0,PQ
+330 Run of River,4,35.8,Run of River,3.0,PQ
+331 Gas,4,227.0,Gas,50.0,PQ
+331 Run of River,4,217.5,Run of River,3.0,PQ
+331 Waste,4,12.5,Waste,6.0,PQ
+332_220kV Gas,4,97.9,Gas,50.0,PQ
+332_220kV Run of River,4,25.2,Run of River,3.0,PQ
+335 Gas,5,54.0,Gas,50.0,PQ
+336_220kV Gas,5,52.8,Gas,50.0,PQ
+336_220kV Run of River,5,89.0,Run of River,3.0,PQ
+337 Gas,4,13.4,Gas,50.0,PQ
+337 Run of River,4,80.1,Run of River,3.0,PQ
+338_220kV Waste,4,54.0,Waste,6.0,PQ
+34 Hard Coal,12,757.0,Hard Coal,25.0,PQ
+34 Oil,12,56.0,Oil,100.0,PQ
+340 Gas,5,299.6,Gas,50.0,PQ
+340 Storage Hydro,5,82.5,Storage Hydro,3.0,PQ
+341 Brown Coal,5,134.0,Brown Coal,10.0,PQ
+341 Gas,5,159.0,Gas,50.0,PQ
+341 Oil,5,111.0,Oil,100.0,PQ
+341 Other,5,42.7,Other,32.0,PQ
+341 Waste,5,58.0,Waste,6.0,PQ
+342 Gas,5,19.5,Gas,50.0,PQ
+344 Gas,5,69.95,Gas,50.0,PQ
+347 Gas,2,211.0,Gas,50.0,PQ
+347 Hard Coal,2,89.0,Hard Coal,25.0,PQ
+347 Oil,2,327.0,Oil,100.0,PQ
+348 Gas,2,458.9,Gas,50.0,PQ
+350 Gas,4,18.6,Gas,50.0,PQ
+351_220kV Other,4,23.3,Other,32.0,PQ
+351_220kV Run of River,4,63.7,Run of River,3.0,PQ
+351_220kV Waste,4,25.5,Waste,6.0,PQ
+352 Hard Coal,4,472.0,Hard Coal,25.0,PQ
+352 Oil,4,46.0,Oil,100.0,PQ
+352 Run of River,4,73.3,Run of River,3.0,PQ
+353_220kV Gas,4,1391.0,Gas,50.0,PQ
+353_220kV Run of River,4,23.3,Run of River,3.0,PQ
+354 Gas,4,540.5,Gas,50.0,PQ
+354 Hard Coal,4,333.0,Hard Coal,25.0,PQ
+354 Waste,4,40.0,Waste,6.0,PQ
+358 Hard Coal,3,318.0,Hard Coal,25.0,PQ
+36 Gas,12,11.06,Gas,50.0,PQ
+36 Hard Coal,12,280.0,Hard Coal,25.0,PQ
+360_220kV Gas,3,42.0,Gas,50.0,PQ
+360_220kV Hard Coal,3,779.0,Hard Coal,25.0,PQ
+360_220kV Waste,3,16.0,Waste,6.0,PQ
+362_220kV Run of River,9,79.5,Run of River,3.0,PQ
+363 Other,6,16.0,Other,32.0,PQ
+364 Waste,11,11.6,Waste,6.0,PQ
+365 Gas,2,81.8,Gas,50.0,PQ
+365 Hard Coal,2,688.0,Hard Coal,25.0,PQ
+365 Waste,2,36.0,Waste,6.0,PQ
+367 Nuclear,13,1402.0,Nuclear,8.0,PQ
+370 Brown Coal,3,56.8,Brown Coal,10.0,PQ
+370 Other,3,85.0,Other,32.0,PQ
+373 Run of River,4,25.0,Run of River,3.0,PQ
+374 Gas,6,100.2,Gas,50.0,PQ
+374 Hard Coal,6,725.0,Hard Coal,25.0,PQ
+376 Geothermal,0,0.6,Geothermal,26.0,PQ
+376 Hard Coal,0,875.0,Hard Coal,25.0,PQ
+377 Waste,13,11.0,Waste,6.0,PQ
+378 Gas,13,260.44,Gas,50.0,PQ
+378 Hard Coal,13,769.0,Hard Coal,25.0,PQ
+37_220kV Gas,5,52.0,Gas,50.0,PQ
+37_220kV Nuclear,5,1360.0,Nuclear,8.0,PQ
+37_220kV Waste,5,58.4,Waste,6.0,PQ
+380 Gas,0,250.0,Gas,50.0,PQ
+380 Waste,0,22.5,Waste,6.0,PQ
+382_220kV Gas,10,122.0,Gas,50.0,PQ
+382_220kV Waste,10,20.7,Waste,6.0,PQ
+383 Waste,10,24.4,Waste,6.0,PQ
+385_220kV Gas,10,58.4,Gas,50.0,PQ
+385_220kV Hard Coal,10,24.8,Hard Coal,25.0,PQ
+385_220kV Oil,10,0.5,Oil,100.0,PQ
+386 Gas,0,23.0,Gas,50.0,PQ
+39 Gas,5,2299.3,Gas,50.0,PQ
+390 Gas,4,1001.3,Gas,50.0,PQ
+390 Hard Coal,4,17.4,Hard Coal,25.0,PQ
+390 Waste,4,18.0,Waste,6.0,PQ
+394 Gas,1,26.5,Gas,50.0,PQ
+395 Gas,1,490.0,Gas,50.0,PQ
+396 Nuclear,1,2572.0,Nuclear,8.0,PQ
+398 Oil,8,87.0,Oil,100.0,PQ
+399 Gas,13,35.1,Gas,50.0,PQ
+399 Waste,13,9.5,Waste,6.0,PQ
+40 Run of River,7,48.0,Run of River,3.0,PQ
+401 Gas,8,31.0,Gas,50.0,PQ
+402 Oil,8,88.0,Oil,100.0,PQ
+402 Run of River,8,60.0,Run of River,3.0,PQ
+402 Storage Hydro,8,158.0,Storage Hydro,3.0,PQ
+403_220kV Run of River,9,19.0,Run of River,3.0,PQ
+404_220kV Run of River,9,24.0,Run of River,3.0,PQ
+405 Gas,9,56.0,Gas,50.0,PQ
+405 Run of River,9,84.6,Run of River,3.0,PQ
+409 Gas,13,8.5,Gas,50.0,PQ
+409 Hard Coal,13,112.6,Hard Coal,25.0,PQ
+409 Oil,13,69.9,Oil,100.0,PQ
+409 Waste,13,19.5,Waste,6.0,PQ
+410 Run of River,1,20.1,Run of River,3.0,PQ
+414 Gas,8,193.7,Gas,50.0,PQ
+417 Run of River,4,137.3,Run of River,3.0,PQ
+418 Run of River,4,66.0,Run of River,3.0,PQ
+421_220kV Waste,13,67.3,Waste,6.0,PQ
+422 Gas,13,13.5,Gas,50.0,PQ
+423 Run of River,9,36.8,Run of River,3.0,PQ
+424 Oil,13,70.0,Oil,100.0,PQ
+425 Other,0,288.5,Other,32.0,PQ
+426 Gas,0,32.4,Gas,50.0,PQ
+428 Brown Coal,2,74.0,Brown Coal,10.0,PQ
+429 Gas,11,112.1,Gas,50.0,PQ
+429 Hard Coal,11,12.0,Hard Coal,25.0,PQ
+43 Gas,2,196.0,Gas,50.0,PQ
+43 Waste,2,17.0,Waste,6.0,PQ
+430 Brown Coal,11,38.5,Brown Coal,10.0,PQ
+433 Gas,1,15.6,Gas,50.0,PQ
+434 Run of River,1,12.8,Run of River,3.0,PQ
+434 Storage Hydro,1,124.0,Storage Hydro,3.0,PQ
+435 Brown Coal,2,164.0,Brown Coal,10.0,PQ
+438 Run of River,13,146.0,Run of River,3.0,PQ
+439 Gas,13,11.7,Gas,50.0,PQ
+44 Waste,2,26.0,Waste,6.0,PQ
+440 Other,8,17.0,Other,32.0,PQ
+441 Gas,5,182.0,Gas,50.0,PQ
+441 Hard Coal,5,61.5,Hard Coal,25.0,PQ
+442 Gas,5,26.5,Gas,50.0,PQ
+444 Gas,12,430.0,Gas,50.0,PQ
+445 Run of River,6,217.1,Run of River,3.0,PQ
+446 Gas,7,14.7,Gas,50.0,PQ
+447 Gas,7,75.0,Gas,50.0,PQ
+45 Gas,2,296.0,Gas,50.0,PQ
+45 Geothermal,2,23.1,Geothermal,26.0,PQ
+451 Run of River,6,104.4,Run of River,3.0,PQ
+453 Run of River,3,30.0,Run of River,3.0,PQ
+455 Gas,11,16.9,Gas,50.0,PQ
+456 Run of River,11,0.1,Run of River,3.0,PQ
+457 Waste,11,29.6,Waste,6.0,PQ
+463 Gas,11,25.8,Gas,50.0,PQ
+464 Gas,11,51.9,Gas,50.0,PQ
+464 Oil,11,66.3,Oil,100.0,PQ
+464 Run of River,11,25.4,Run of River,3.0,PQ
+465 Gas,11,35.0,Gas,50.0,PQ
+465 Oil,11,80.0,Oil,100.0,PQ
+468 Gas,11,17.5,Gas,50.0,PQ
+468 Hard Coal,11,79.0,Hard Coal,25.0,PQ
+468 Oil,11,4.8,Oil,100.0,PQ
+468 Waste,11,16.0,Waste,6.0,PQ
+47 Gas,2,444.0,Gas,50.0,PQ
+47 Run of River,2,31.7,Run of River,3.0,PQ
+474 Gas,0,390.0,Gas,50.0,PQ
+475 Oil,0,250.6,Oil,100.0,PQ
+478 Gas,6,95.0,Gas,50.0,PQ
+484 Gas,1,65.0,Gas,50.0,PQ
+484 Other,1,6.0,Other,32.0,PQ
+484 Run of River,1,66.7,Run of River,3.0,PQ
+484 Storage Hydro,1,45.5,Storage Hydro,3.0,PQ
+485 Run of River,1,26.5,Run of River,3.0,PQ
+486 Hard Coal,1,138.5,Hard Coal,25.0,PQ
+486 Oil,1,11.4,Oil,100.0,PQ
+487 Brown Coal,1,875.0,Brown Coal,10.0,PQ
+487 Oil,1,11.4,Oil,100.0,PQ
+49 Brown Coal,0,352.0,Brown Coal,10.0,PQ
+49 Hard Coal,0,66.0,Hard Coal,25.0,PQ
+49 Waste,0,37.5,Waste,6.0,PQ
+492 Hard Coal,10,54.0,Hard Coal,25.0,PQ
+492 Waste,10,56.9,Waste,6.0,PQ
+495 Hard Coal,8,147.0,Hard Coal,25.0,PQ
+51 Storage Hydro,10,20.0,Storage Hydro,3.0,PQ
+52_220kV Gas,13,390.0,Gas,50.0,PQ
+52_220kV Hard Coal,13,1347.0,Hard Coal,25.0,PQ
+56_220kV Gas,13,11.7,Gas,50.0,PQ
+58 Gas,13,52.5,Gas,50.0,PQ
+58 Hard Coal,13,26.9,Hard Coal,25.0,PQ
+59 Hard Coal,12,324.0,Hard Coal,25.0,PQ
+5_220kV Run of River,0,4.6,Run of River,3.0,PQ
+61_220kV Gas,12,334.0,Gas,50.0,PQ
+61_220kV Hard Coal,12,350.0,Hard Coal,25.0,PQ
+62 Hard Coal,12,119.0,Hard Coal,25.0,PQ
+62 Run of River,12,9.9,Run of River,3.0,PQ
+62 Waste,12,44.0,Waste,6.0,PQ
+63 Brown Coal,13,465.0,Brown Coal,10.0,PQ
+63 Run of River,13,22.0,Run of River,3.0,PQ
+64 Run of River,4,11.2,Run of River,3.0,PQ
+65 Run of River,5,164.5,Run of River,3.0,PQ
+66 Run of River,4,5.1,Run of River,3.0,PQ
+67 Gas,12,14.8,Gas,50.0,PQ
+67 Hard Coal,12,300.0,Hard Coal,25.0,PQ
+67 Oil,12,88.0,Oil,100.0,PQ
+67 Other,12,150.0,Other,32.0,PQ
+67 Storage Hydro,12,392.0,Storage Hydro,3.0,PQ
+67 Waste,12,33.0,Waste,6.0,PQ
+68_220kV Run of River,10,4.2,Run of River,3.0,PQ
+69_220kV Gas,13,11.5,Gas,50.0,PQ
+69_220kV Waste,13,18.8,Waste,6.0,PQ
+70 Gas,10,423.0,Gas,50.0,PQ
+70 Waste,10,15.6,Waste,6.0,PQ
+71 Brown Coal,5,49.0,Brown Coal,10.0,PQ
+71 Gas,5,161.1,Gas,50.0,PQ
+71 Waste,5,9.9,Waste,6.0,PQ
+72 Brown Coal,5,900.0,Brown Coal,10.0,PQ
+72 Gas,5,151.0,Gas,50.0,PQ
+72 Oil,5,120.0,Oil,100.0,PQ
+74_220kV Gas,2,122.0,Gas,50.0,PQ
+74_220kV Waste,2,23.3,Waste,6.0,PQ
+75 Brown Coal,5,49.0,Brown Coal,10.0,PQ
+77 Gas,0,5.3,Gas,50.0,PQ
+79 Brown Coal,2,750.0,Brown Coal,10.0,PQ
+79 Waste,2,18.7,Waste,6.0,PQ
+81 Brown Coal,2,2835.0,Brown Coal,10.0,PQ
+81 Other,2,124.5,Other,32.0,PQ
+83 Brown Coal,8,750.0,Brown Coal,10.0,PQ
+83 Other,8,53.6,Other,32.0,PQ
+84 Hard Coal,8,323.0,Hard Coal,25.0,PQ
+87_220kV Gas,11,138.7,Gas,50.0,PQ
+87_220kV Hard Coal,11,175.9,Hard Coal,25.0,PQ
+87_220kV Multiple,11,120.0,Multiple,28.0,PQ
+88 Gas,11,39.8,Gas,50.0,PQ
+89 Other,11,606.0,Other,32.0,PQ
+92 Gas,6,66.0,Gas,50.0,PQ
+94_220kV Geothermal,6,0.2,Geothermal,26.0,PQ
+95_220kV Gas,6,24.3,Gas,50.0,PQ
+99_220kV Gas,3,113.6,Gas,50.0,PQ
+99_220kV Hard Coal,3,655.6,Hard Coal,25.0,PQ
+218 Wind Offshore,7,48.3,Wind Offshore,0.0,PQ
+221 Wind Offshore,12,400.0,Wind Offshore,0.0,PQ
+270 Wind Offshore,12,60.0,Wind Offshore,0.0,PQ
+271 Wind Offshore,12,1018.0,Wind Offshore,0.0,PQ
+22_220kV Wind Offshore,8,1447.2,Wind Offshore,0.0,PQ
+1 Wind Onshore,0,153.510391124,Wind Onshore,0.0,PQ
+3 Wind Onshore,0,50.1645064777,Wind Onshore,0.0,PQ
+4 Wind Onshore,0,84.2627790573,Wind Onshore,0.0,PQ
+6 Wind Onshore,0,49.8864693272,Wind Onshore,0.0,PQ
+7 Wind Onshore,0,67.2230767625,Wind Onshore,0.0,PQ
+8 Wind Onshore,8,94.6840441287,Wind Onshore,0.0,PQ
+9 Wind Onshore,8,85.7985253848,Wind Onshore,0.0,PQ
+11 Wind Onshore,2,132.724113719,Wind Onshore,0.0,PQ
+14 Wind Onshore,4,0.0641793580921,Wind Onshore,0.0,PQ
+16 Wind Onshore,0,204.187623515,Wind Onshore,0.0,PQ
+17 Wind Onshore,2,52.7005296089,Wind Onshore,0.0,PQ
+19 Wind Onshore,1,6.03553849736,Wind Onshore,0.0,PQ
+21 Wind Onshore,8,36.1635315924,Wind Onshore,0.0,PQ
+23 Wind Onshore,8,61.8362042365,Wind Onshore,0.0,PQ
+25 Wind Onshore,8,106.787062956,Wind Onshore,0.0,PQ
+27 Wind Onshore,8,13.0295812923,Wind Onshore,0.0,PQ
+28 Wind Onshore,8,71.6568833062,Wind Onshore,0.0,PQ
+29 Wind Onshore,0,293.755374959,Wind Onshore,0.0,PQ
+31 Wind Onshore,10,52.7816062429,Wind Onshore,0.0,PQ
+33 Wind Onshore,0,304.429780208,Wind Onshore,0.0,PQ
+34 Wind Onshore,12,20.6686903142,Wind Onshore,0.0,PQ
+35 Wind Onshore,12,16.3680870699,Wind Onshore,0.0,PQ
+36 Wind Onshore,12,273.855776496,Wind Onshore,0.0,PQ
+38 Wind Onshore,2,2.8560689855,Wind Onshore,0.0,PQ
+39 Wind Onshore,5,603.943953043,Wind Onshore,0.0,PQ
+40 Wind Onshore,7,426.979978559,Wind Onshore,0.0,PQ
+41 Wind Onshore,7,1055.73517403,Wind Onshore,0.0,PQ
+43 Wind Onshore,2,414.871332023,Wind Onshore,0.0,PQ
+44 Wind Onshore,2,10.3516315814,Wind Onshore,0.0,PQ
+45 Wind Onshore,2,161.862596706,Wind Onshore,0.0,PQ
+47 Wind Onshore,2,2.87856145665,Wind Onshore,0.0,PQ
+48 Wind Onshore,2,8.67091627581,Wind Onshore,0.0,PQ
+49 Wind Onshore,0,209.786523699,Wind Onshore,0.0,PQ
+50 Wind Onshore,0,339.421642565,Wind Onshore,0.0,PQ
+51 Wind Onshore,10,134.399019048,Wind Onshore,0.0,PQ
+53 Wind Onshore,9,32.6535257613,Wind Onshore,0.0,PQ
+54 Wind Onshore,13,5.00902220665,Wind Onshore,0.0,PQ
+55 Wind Onshore,13,3.19075884669,Wind Onshore,0.0,PQ
+57 Wind Onshore,13,0.788599328058,Wind Onshore,0.0,PQ
+58 Wind Onshore,13,4.32869590283,Wind Onshore,0.0,PQ
+59 Wind Onshore,12,112.606432525,Wind Onshore,0.0,PQ
+60 Wind Onshore,12,77.81765048,Wind Onshore,0.0,PQ
+62 Wind Onshore,12,153.592985662,Wind Onshore,0.0,PQ
+63 Wind Onshore,13,15.7834481687,Wind Onshore,0.0,PQ
+64 Wind Onshore,4,2.29550964638,Wind Onshore,0.0,PQ
+65 Wind Onshore,5,26.1200405137,Wind Onshore,0.0,PQ
+66 Wind Onshore,4,34.4132463542,Wind Onshore,0.0,PQ
+67 Wind Onshore,12,72.3279923602,Wind Onshore,0.0,PQ
+70 Wind Onshore,10,132.149983123,Wind Onshore,0.0,PQ
+71 Wind Onshore,5,405.642114881,Wind Onshore,0.0,PQ
+72 Wind Onshore,5,510.054159155,Wind Onshore,0.0,PQ
+73 Wind Onshore,2,633.681488492,Wind Onshore,0.0,PQ
+75 Wind Onshore,5,602.719370584,Wind Onshore,0.0,PQ
+76 Wind Onshore,6,113.714399398,Wind Onshore,0.0,PQ
+77 Wind Onshore,0,225.599169646,Wind Onshore,0.0,PQ
+79 Wind Onshore,2,116.66596966,Wind Onshore,0.0,PQ
+80 Wind Onshore,2,36.7824924762,Wind Onshore,0.0,PQ
+81 Wind Onshore,2,384.449592248,Wind Onshore,0.0,PQ
+82 Wind Onshore,12,89.1408968614,Wind Onshore,0.0,PQ
+83 Wind Onshore,8,45.7938996393,Wind Onshore,0.0,PQ
+84 Wind Onshore,8,54.0020322251,Wind Onshore,0.0,PQ
+85 Wind Onshore,6,155.605297616,Wind Onshore,0.0,PQ
+88 Wind Onshore,11,3.75903786416,Wind Onshore,0.0,PQ
+89 Wind Onshore,11,0.20495144136,Wind Onshore,0.0,PQ
+90 Wind Onshore,6,84.5061198676,Wind Onshore,0.0,PQ
+91 Wind Onshore,6,4.60112152773,Wind Onshore,0.0,PQ
+92 Wind Onshore,6,71.0254994175,Wind Onshore,0.0,PQ
+93 Wind Onshore,12,290.937197757,Wind Onshore,0.0,PQ
+97 Wind Onshore,4,0.0266961326966,Wind Onshore,0.0,PQ
+98 Wind Onshore,7,83.9306653156,Wind Onshore,0.0,PQ
+101 Wind Onshore,7,350.979987644,Wind Onshore,0.0,PQ
+102 Wind Onshore,7,245.381700655,Wind Onshore,0.0,PQ
+103 Wind Onshore,11,0.206918168218,Wind Onshore,0.0,PQ
+108 Wind Onshore,11,2.17859329378,Wind Onshore,0.0,PQ
+109 Wind Onshore,11,2.28979314118,Wind Onshore,0.0,PQ
+110 Wind Onshore,6,76.2216146438,Wind Onshore,0.0,PQ
+111 Wind Onshore,6,320.42275108,Wind Onshore,0.0,PQ
+112 Wind Onshore,6,0.778210370106,Wind Onshore,0.0,PQ
+113 Wind Onshore,11,1.65455712572,Wind Onshore,0.0,PQ
+114 Wind Onshore,6,89.637993199,Wind Onshore,0.0,PQ
+115 Wind Onshore,11,69.5342899494,Wind Onshore,0.0,PQ
+116 Wind Onshore,11,3.53636055719,Wind Onshore,0.0,PQ
+118 Wind Onshore,11,13.4468885109,Wind Onshore,0.0,PQ
+119 Wind Onshore,11,50.5752781935,Wind Onshore,0.0,PQ
+121 Wind Onshore,11,32.6011423992,Wind Onshore,0.0,PQ
+122 Wind Onshore,11,90.7925410198,Wind Onshore,0.0,PQ
+126 Wind Onshore,11,8.72501236524,Wind Onshore,0.0,PQ
+127 Wind Onshore,11,43.2540231528,Wind Onshore,0.0,PQ
+130 Wind Onshore,11,2.41600145539,Wind Onshore,0.0,PQ
+131 Wind Onshore,11,0.540589207054,Wind Onshore,0.0,PQ
+132 Wind Onshore,11,1.46288325395,Wind Onshore,0.0,PQ
+133 Wind Onshore,11,1.46433600229,Wind Onshore,0.0,PQ
+134 Wind Onshore,11,1.28828304343,Wind Onshore,0.0,PQ
+135 Wind Onshore,6,25.8188993015,Wind Onshore,0.0,PQ
+136 Wind Onshore,6,29.1548929719,Wind Onshore,0.0,PQ
+137 Wind Onshore,11,105.296621064,Wind Onshore,0.0,PQ
+139 Wind Onshore,11,3.06138955244,Wind Onshore,0.0,PQ
+140 Wind Onshore,6,4.73874713717,Wind Onshore,0.0,PQ
+141 Wind Onshore,11,1.02575387048,Wind Onshore,0.0,PQ
+142 Wind Onshore,11,2.8970783132,Wind Onshore,0.0,PQ
+144 Wind Onshore,11,0.359496708924,Wind Onshore,0.0,PQ
+145 Wind Onshore,11,0.719596947326,Wind Onshore,0.0,PQ
+146 Wind Onshore,11,0.508453122526,Wind Onshore,0.0,PQ
+147 Wind Onshore,6,8.11781937714,Wind Onshore,0.0,PQ
+148 Wind Onshore,11,0.402699751377,Wind Onshore,0.0,PQ
+149 Wind Onshore,11,3.669011551,Wind Onshore,0.0,PQ
+150 Wind Onshore,11,1.25427791149,Wind Onshore,0.0,PQ
+151 Wind Onshore,11,19.8227688711,Wind Onshore,0.0,PQ
+152 Wind Onshore,11,28.389456755,Wind Onshore,0.0,PQ
+153 Wind Onshore,11,119.464559856,Wind Onshore,0.0,PQ
+154 Wind Onshore,11,1.21573343643,Wind Onshore,0.0,PQ
+155 Wind Onshore,6,25.239356261,Wind Onshore,0.0,PQ
+158 Wind Onshore,11,52.5273816031,Wind Onshore,0.0,PQ
+161 Wind Onshore,12,175.889627208,Wind Onshore,0.0,PQ
+162 Wind Onshore,11,0.861317127693,Wind Onshore,0.0,PQ
+163 Wind Onshore,11,45.7037068059,Wind Onshore,0.0,PQ
+164 Wind Onshore,6,17.6455290289,Wind Onshore,0.0,PQ
+166 Wind Onshore,6,8.55678386233,Wind Onshore,0.0,PQ
+167 Wind Onshore,6,3.62255952466,Wind Onshore,0.0,PQ
+168 Wind Onshore,11,13.0361134479,Wind Onshore,0.0,PQ
+169 Wind Onshore,11,0.116517735693,Wind Onshore,0.0,PQ
+170 Wind Onshore,11,0.0687883675101,Wind Onshore,0.0,PQ
+171 Wind Onshore,11,0.160624563218,Wind Onshore,0.0,PQ
+172 Wind Onshore,11,0.609451340471,Wind Onshore,0.0,PQ
+173 Wind Onshore,11,16.0223344728,Wind Onshore,0.0,PQ
+174 Wind Onshore,11,4.35414698006,Wind Onshore,0.0,PQ
+175 Wind Onshore,11,1.04303990751,Wind Onshore,0.0,PQ
+176 Wind Onshore,11,13.4980870092,Wind Onshore,0.0,PQ
+177 Wind Onshore,7,238.377761372,Wind Onshore,0.0,PQ
+178 Wind Onshore,6,25.2633910944,Wind Onshore,0.0,PQ
+179 Wind Onshore,2,502.409178069,Wind Onshore,0.0,PQ
+180 Wind Onshore,2,330.031939735,Wind Onshore,0.0,PQ
+181 Wind Onshore,2,285.625411508,Wind Onshore,0.0,PQ
+182 Wind Onshore,2,57.1885789685,Wind Onshore,0.0,PQ
+183 Wind Onshore,8,83.2771628571,Wind Onshore,0.0,PQ
+185 Wind Onshore,11,5.05377980991,Wind Onshore,0.0,PQ
+186 Wind Onshore,11,1.34577448661,Wind Onshore,0.0,PQ
+187 Wind Onshore,11,2.72184505996,Wind Onshore,0.0,PQ
+188 Wind Onshore,11,0.265989546307,Wind Onshore,0.0,PQ
+189 Wind Onshore,9,9.02988478213,Wind Onshore,0.0,PQ
+190 Wind Onshore,13,3.58404269875,Wind Onshore,0.0,PQ
+192 Wind Onshore,7,254.253327175,Wind Onshore,0.0,PQ
+193 Wind Onshore,11,1.26008164224,Wind Onshore,0.0,PQ
+194 Wind Onshore,11,0.855454008484,Wind Onshore,0.0,PQ
+196 Wind Onshore,11,0.232219951161,Wind Onshore,0.0,PQ
+197 Wind Onshore,11,27.8740104664,Wind Onshore,0.0,PQ
+198 Wind Onshore,6,3.16799906488,Wind Onshore,0.0,PQ
+199 Wind Onshore,6,1.30629298198,Wind Onshore,0.0,PQ
+200 Wind Onshore,11,0.688544563034,Wind Onshore,0.0,PQ
+202 Wind Onshore,6,85.7395569744,Wind Onshore,0.0,PQ
+203 Wind Onshore,11,99.3195792397,Wind Onshore,0.0,PQ
+204 Wind Onshore,6,38.2225747563,Wind Onshore,0.0,PQ
+205 Wind Onshore,6,4.21900521504,Wind Onshore,0.0,PQ
+206 Wind Onshore,11,11.3439712953,Wind Onshore,0.0,PQ
+207 Wind Onshore,6,38.9163677331,Wind Onshore,0.0,PQ
+208 Wind Onshore,6,9.81457352728,Wind Onshore,0.0,PQ
+209 Wind Onshore,0,179.712741143,Wind Onshore,0.0,PQ
+210 Wind Onshore,0,20.2618052811,Wind Onshore,0.0,PQ
+211 Wind Onshore,3,220.533673307,Wind Onshore,0.0,PQ
+212 Wind Onshore,3,73.0794126745,Wind Onshore,0.0,PQ
+213 Wind Onshore,10,21.4545687721,Wind Onshore,0.0,PQ
+214 Wind Onshore,13,2.39995325631,Wind Onshore,0.0,PQ
+215 Wind Onshore,13,8.98603573294,Wind Onshore,0.0,PQ
+216 Wind Onshore,13,0.202358992327,Wind Onshore,0.0,PQ
+217 Wind Onshore,7,160.697955702,Wind Onshore,0.0,PQ
+218 Wind Onshore,7,90.5922662203,Wind Onshore,0.0,PQ
+219 Wind Onshore,6,39.8191571163,Wind Onshore,0.0,PQ
+221 Wind Onshore,12,201.421956418,Wind Onshore,0.0,PQ
+222 Wind Onshore,12,56.0124084149,Wind Onshore,0.0,PQ
+223 Wind Onshore,13,25.1666668423,Wind Onshore,0.0,PQ
+224 Wind Onshore,13,49.892379932,Wind Onshore,0.0,PQ
+225 Wind Onshore,3,182.623255886,Wind Onshore,0.0,PQ
+226 Wind Onshore,0,47.5418211266,Wind Onshore,0.0,PQ
+227 Wind Onshore,1,0.548842797786,Wind Onshore,0.0,PQ
+228 Wind Onshore,13,3.80689419028,Wind Onshore,0.0,PQ
+229 Wind Onshore,13,3.57545259247,Wind Onshore,0.0,PQ
+230 Wind Onshore,1,2.24203138868,Wind Onshore,0.0,PQ
+234 Wind Onshore,9,1.26826084243,Wind Onshore,0.0,PQ
+235 Wind Onshore,9,9.02599008132,Wind Onshore,0.0,PQ
+237 Wind Onshore,3,18.0052285695,Wind Onshore,0.0,PQ
+238 Wind Onshore,3,91.1718882891,Wind Onshore,0.0,PQ
+239 Wind Onshore,3,57.3427040317,Wind Onshore,0.0,PQ
+240 Wind Onshore,10,4.50590653785,Wind Onshore,0.0,PQ
+241 Wind Onshore,10,2.25296531835,Wind Onshore,0.0,PQ
+242 Wind Onshore,10,67.7544693336,Wind Onshore,0.0,PQ
+245 Wind Onshore,10,35.8716168147,Wind Onshore,0.0,PQ
+246 Wind Onshore,10,0.980482439128,Wind Onshore,0.0,PQ
+249 Wind Onshore,6,12.3395302249,Wind Onshore,0.0,PQ
+253 Wind Onshore,6,30.5978493741,Wind Onshore,0.0,PQ
+254 Wind Onshore,3,593.230436463,Wind Onshore,0.0,PQ
+255 Wind Onshore,3,211.057769317,Wind Onshore,0.0,PQ
+256 Wind Onshore,3,3.806101238,Wind Onshore,0.0,PQ
+257 Wind Onshore,13,160.523777952,Wind Onshore,0.0,PQ
+258 Wind Onshore,0,34.9314811298,Wind Onshore,0.0,PQ
+259 Wind Onshore,0,3.98285835666,Wind Onshore,0.0,PQ
+260 Wind Onshore,13,17.4828066828,Wind Onshore,0.0,PQ
+262 Wind Onshore,1,3.02136730179,Wind Onshore,0.0,PQ
+265 Wind Onshore,6,51.2442219887,Wind Onshore,0.0,PQ
+266 Wind Onshore,4,1.68127574154,Wind Onshore,0.0,PQ
+268 Wind Onshore,6,33.5547803098,Wind Onshore,0.0,PQ
+269 Wind Onshore,10,75.0750875274,Wind Onshore,0.0,PQ
+270 Wind Onshore,12,575.368279546,Wind Onshore,0.0,PQ
+271 Wind Onshore,12,101.139399875,Wind Onshore,0.0,PQ
+273 Wind Onshore,8,9.0373397227,Wind Onshore,0.0,PQ
+274 Wind Onshore,8,82.2250352232,Wind Onshore,0.0,PQ
+275 Wind Onshore,3,14.6054088834,Wind Onshore,0.0,PQ
+276 Wind Onshore,3,188.691049163,Wind Onshore,0.0,PQ
+277 Wind Onshore,12,2.26770583626,Wind Onshore,0.0,PQ
+278 Wind Onshore,5,339.510510359,Wind Onshore,0.0,PQ
+280 Wind Onshore,2,385.361595031,Wind Onshore,0.0,PQ
+283 Wind Onshore,10,27.074037541,Wind Onshore,0.0,PQ
+284 Wind Onshore,10,83.0798418272,Wind Onshore,0.0,PQ
+285 Wind Onshore,12,323.472536333,Wind Onshore,0.0,PQ
+286 Wind Onshore,0,8.0808958712,Wind Onshore,0.0,PQ
+287 Wind Onshore,6,57.1278247463,Wind Onshore,0.0,PQ
+288 Wind Onshore,9,21.8333957759,Wind Onshore,0.0,PQ
+289 Wind Onshore,6,91.9582753388,Wind Onshore,0.0,PQ
+290 Wind Onshore,2,76.1351770479,Wind Onshore,0.0,PQ
+291 Wind Onshore,2,30.8305188023,Wind Onshore,0.0,PQ
+293 Wind Onshore,5,23.4043450629,Wind Onshore,0.0,PQ
+294 Wind Onshore,5,14.887727285,Wind Onshore,0.0,PQ
+295 Wind Onshore,0,64.502694254,Wind Onshore,0.0,PQ
+296 Wind Onshore,0,82.2786953613,Wind Onshore,0.0,PQ
+297 Wind Onshore,0,3.81841924681,Wind Onshore,0.0,PQ
+298 Wind Onshore,0,15.0918417045,Wind Onshore,0.0,PQ
+299 Wind Onshore,0,88.9528798809,Wind Onshore,0.0,PQ
+300 Wind Onshore,12,235.487328921,Wind Onshore,0.0,PQ
+301 Wind Onshore,0,109.288718785,Wind Onshore,0.0,PQ
+302 Wind Onshore,0,20.1687166138,Wind Onshore,0.0,PQ
+304 Wind Onshore,10,201.699554501,Wind Onshore,0.0,PQ
+305 Wind Onshore,13,0.524108115665,Wind Onshore,0.0,PQ
+306 Wind Onshore,13,0.352420710612,Wind Onshore,0.0,PQ
+309 Wind Onshore,10,82.0353612917,Wind Onshore,0.0,PQ
+310 Wind Onshore,13,6.65472673495,Wind Onshore,0.0,PQ
+311 Wind Onshore,13,119.710848522,Wind Onshore,0.0,PQ
+313 Wind Onshore,5,39.469005702,Wind Onshore,0.0,PQ
+314 Wind Onshore,1,3.4294999088,Wind Onshore,0.0,PQ
+316 Wind Onshore,1,5.10582944022,Wind Onshore,0.0,PQ
+318 Wind Onshore,1,38.9505114335,Wind Onshore,0.0,PQ
+319 Wind Onshore,1,47.3717915205,Wind Onshore,0.0,PQ
+320 Wind Onshore,13,1.23166024502,Wind Onshore,0.0,PQ
+321 Wind Onshore,9,2.16920079779,Wind Onshore,0.0,PQ
+323 Wind Onshore,5,53.0956287692,Wind Onshore,0.0,PQ
+324 Wind Onshore,2,99.0752999943,Wind Onshore,0.0,PQ
+325 Wind Onshore,2,25.6556410363,Wind Onshore,0.0,PQ
+326 Wind Onshore,2,65.61125218,Wind Onshore,0.0,PQ
+327 Wind Onshore,2,170.437781001,Wind Onshore,0.0,PQ
+328 Wind Onshore,4,0.00434449024199,Wind Onshore,0.0,PQ
+329 Wind Onshore,4,0.626493907051,Wind Onshore,0.0,PQ
+330 Wind Onshore,4,2.51245968177,Wind Onshore,0.0,PQ
+331 Wind Onshore,4,4.36303730827,Wind Onshore,0.0,PQ
+333 Wind Onshore,8,1297.76442825,Wind Onshore,0.0,PQ
+335 Wind Onshore,5,28.4263216809,Wind Onshore,0.0,PQ
+337 Wind Onshore,4,2.93704756536,Wind Onshore,0.0,PQ
+339 Wind Onshore,13,17.8722009047,Wind Onshore,0.0,PQ
+340 Wind Onshore,5,93.1996278632,Wind Onshore,0.0,PQ
+341 Wind Onshore,5,148.402692339,Wind Onshore,0.0,PQ
+342 Wind Onshore,5,184.14923543,Wind Onshore,0.0,PQ
+343 Wind Onshore,5,4.90197409828,Wind Onshore,0.0,PQ
+344 Wind Onshore,5,98.2933506333,Wind Onshore,0.0,PQ
+345 Wind Onshore,5,41.6820737696,Wind Onshore,0.0,PQ
+346 Wind Onshore,2,2.40210740929,Wind Onshore,0.0,PQ
+347 Wind Onshore,2,5.39742965672,Wind Onshore,0.0,PQ
+348 Wind Onshore,2,5.87366595854,Wind Onshore,0.0,PQ
+349 Wind Onshore,4,27.3564890353,Wind Onshore,0.0,PQ
+350 Wind Onshore,4,177.778741548,Wind Onshore,0.0,PQ
+352 Wind Onshore,4,4.01460326021,Wind Onshore,0.0,PQ
+354 Wind Onshore,4,2.15820669618,Wind Onshore,0.0,PQ
+355 Wind Onshore,3,23.74405048,Wind Onshore,0.0,PQ
+356 Wind Onshore,3,60.8633036939,Wind Onshore,0.0,PQ
+357 Wind Onshore,3,4.87729945362,Wind Onshore,0.0,PQ
+358 Wind Onshore,3,4.33551577107,Wind Onshore,0.0,PQ
+359 Wind Onshore,3,9.59431935716,Wind Onshore,0.0,PQ
+361 Wind Onshore,3,0.00456719955131,Wind Onshore,0.0,PQ
+363 Wind Onshore,6,1.82701375341,Wind Onshore,0.0,PQ
+364 Wind Onshore,11,0.298940300013,Wind Onshore,0.0,PQ
+365 Wind Onshore,2,3.27832133929,Wind Onshore,0.0,PQ
+366 Wind Onshore,13,3.34909004921,Wind Onshore,0.0,PQ
+367 Wind Onshore,13,1.64588987762,Wind Onshore,0.0,PQ
+368 Wind Onshore,9,11.8540035349,Wind Onshore,0.0,PQ
+369 Wind Onshore,8,262.264924035,Wind Onshore,0.0,PQ
+370 Wind Onshore,3,30.8367475842,Wind Onshore,0.0,PQ
+371 Wind Onshore,3,12.0039872819,Wind Onshore,0.0,PQ
+372 Wind Onshore,3,7.87902661745,Wind Onshore,0.0,PQ
+373 Wind Onshore,4,2.75749675502,Wind Onshore,0.0,PQ
+374 Wind Onshore,6,23.9585741942,Wind Onshore,0.0,PQ
+375 Wind Onshore,13,1.95633185604,Wind Onshore,0.0,PQ
+376 Wind Onshore,0,17.7082761196,Wind Onshore,0.0,PQ
+377 Wind Onshore,13,20.7585904677,Wind Onshore,0.0,PQ
+378 Wind Onshore,13,0.161123144974,Wind Onshore,0.0,PQ
+379 Wind Onshore,13,0.929763183455,Wind Onshore,0.0,PQ
+380 Wind Onshore,0,199.111908709,Wind Onshore,0.0,PQ
+381 Wind Onshore,13,13.0632583963,Wind Onshore,0.0,PQ
+383 Wind Onshore,10,90.4975589655,Wind Onshore,0.0,PQ
+386 Wind Onshore,0,56.928865333,Wind Onshore,0.0,PQ
+387 Wind Onshore,0,50.7968954699,Wind Onshore,0.0,PQ
+388 Wind Onshore,0,16.0633432056,Wind Onshore,0.0,PQ
+389 Wind Onshore,10,218.675423603,Wind Onshore,0.0,PQ
+390 Wind Onshore,4,30.1310283897,Wind Onshore,0.0,PQ
+392 Wind Onshore,11,0.289238434706,Wind Onshore,0.0,PQ
+393 Wind Onshore,1,26.2930875243,Wind Onshore,0.0,PQ
+394 Wind Onshore,1,45.6502535882,Wind Onshore,0.0,PQ
+395 Wind Onshore,1,1.21534084768,Wind Onshore,0.0,PQ
+396 Wind Onshore,1,3.306939311,Wind Onshore,0.0,PQ
+397 Wind Onshore,10,29.7730350488,Wind Onshore,0.0,PQ
+398 Wind Onshore,8,121.31240995,Wind Onshore,0.0,PQ
+399 Wind Onshore,13,0.832524410153,Wind Onshore,0.0,PQ
+400 Wind Onshore,6,10.0864820071,Wind Onshore,0.0,PQ
+401 Wind Onshore,8,70.0983272434,Wind Onshore,0.0,PQ
+402 Wind Onshore,8,205.513321072,Wind Onshore,0.0,PQ
+405 Wind Onshore,9,0.734589478908,Wind Onshore,0.0,PQ
+406 Wind Onshore,9,1.10210758817,Wind Onshore,0.0,PQ
+409 Wind Onshore,13,0.226056957693,Wind Onshore,0.0,PQ
+410 Wind Onshore,1,3.97118800864,Wind Onshore,0.0,PQ
+411 Wind Onshore,6,214.719214758,Wind Onshore,0.0,PQ
+412 Wind Onshore,8,414.115976321,Wind Onshore,0.0,PQ
+414 Wind Onshore,8,22.7079271365,Wind Onshore,0.0,PQ
+415 Wind Onshore,8,42.3523424512,Wind Onshore,0.0,PQ
+416 Wind Onshore,9,0.0949711377878,Wind Onshore,0.0,PQ
+417 Wind Onshore,4,0.0159577330889,Wind Onshore,0.0,PQ
+418 Wind Onshore,4,0.837260326848,Wind Onshore,0.0,PQ
+422 Wind Onshore,13,2.1470467446e-08,Wind Onshore,0.0,PQ
+423 Wind Onshore,9,0.147716007334,Wind Onshore,0.0,PQ
+424 Wind Onshore,13,1.68832442006,Wind Onshore,0.0,PQ
+425 Wind Onshore,0,73.4862311837,Wind Onshore,0.0,PQ
+426 Wind Onshore,0,56.4599127019,Wind Onshore,0.0,PQ
+427 Wind Onshore,13,0.247292713667,Wind Onshore,0.0,PQ
+428 Wind Onshore,2,70.6335891308,Wind Onshore,0.0,PQ
+429 Wind Onshore,11,17.1359833072,Wind Onshore,0.0,PQ
+430 Wind Onshore,11,63.2071733464,Wind Onshore,0.0,PQ
+431 Wind Onshore,11,79.1072159825,Wind Onshore,0.0,PQ
+432 Wind Onshore,1,0.0361579458313,Wind Onshore,0.0,PQ
+433 Wind Onshore,1,0.0610682185031,Wind Onshore,0.0,PQ
+434 Wind Onshore,1,0.000455522242349,Wind Onshore,0.0,PQ
+435 Wind Onshore,2,1.22999224722,Wind Onshore,0.0,PQ
+436 Wind Onshore,9,43.8638910737,Wind Onshore,0.0,PQ
+437 Wind Onshore,9,3.29824335081,Wind Onshore,0.0,PQ
+438 Wind Onshore,13,7.96885916892,Wind Onshore,0.0,PQ
+439 Wind Onshore,13,0.343307573159,Wind Onshore,0.0,PQ
+440 Wind Onshore,8,81.7672084659,Wind Onshore,0.0,PQ
+441 Wind Onshore,5,192.966587575,Wind Onshore,0.0,PQ
+442 Wind Onshore,5,35.2002569935,Wind Onshore,0.0,PQ
+443 Wind Onshore,12,108.220145939,Wind Onshore,0.0,PQ
+444 Wind Onshore,12,61.2238159146,Wind Onshore,0.0,PQ
+445 Wind Onshore,6,176.213655222,Wind Onshore,0.0,PQ
+446 Wind Onshore,7,234.376272084,Wind Onshore,0.0,PQ
+447 Wind Onshore,7,246.029905672,Wind Onshore,0.0,PQ
+448 Wind Onshore,6,0.805984486427,Wind Onshore,0.0,PQ
+449 Wind Onshore,11,1.21335617518,Wind Onshore,0.0,PQ
+451 Wind Onshore,6,1.01257029068,Wind Onshore,0.0,PQ
+452 Wind Onshore,3,138.839906457,Wind Onshore,0.0,PQ
+453 Wind Onshore,3,109.821439285,Wind Onshore,0.0,PQ
+454 Wind Onshore,11,4.66913458007,Wind Onshore,0.0,PQ
+455 Wind Onshore,11,0.124454538855,Wind Onshore,0.0,PQ
+456 Wind Onshore,11,0.673857688536,Wind Onshore,0.0,PQ
+457 Wind Onshore,11,3.4935608962,Wind Onshore,0.0,PQ
+459 Wind Onshore,11,0.928187582185,Wind Onshore,0.0,PQ
+460 Wind Onshore,11,0.213536185243,Wind Onshore,0.0,PQ
+461 Wind Onshore,6,3.73281623771,Wind Onshore,0.0,PQ
+462 Wind Onshore,6,0.521719224928,Wind Onshore,0.0,PQ
+463 Wind Onshore,11,19.3063857702,Wind Onshore,0.0,PQ
+464 Wind Onshore,11,1.37650939265,Wind Onshore,0.0,PQ
+465 Wind Onshore,11,1.0778860584,Wind Onshore,0.0,PQ
+466 Wind Onshore,11,0.073776456668,Wind Onshore,0.0,PQ
+467 Wind Onshore,11,0.0261115323765,Wind Onshore,0.0,PQ
+468 Wind Onshore,11,25.0845450748,Wind Onshore,0.0,PQ
+469 Wind Onshore,11,2.77964085133,Wind Onshore,0.0,PQ
+470 Wind Onshore,6,17.8681570236,Wind Onshore,0.0,PQ
+471 Wind Onshore,11,1.29719736092,Wind Onshore,0.0,PQ
+472 Wind Onshore,6,89.339497458,Wind Onshore,0.0,PQ
+473 Wind Onshore,6,26.3289024862,Wind Onshore,0.0,PQ
+474 Wind Onshore,0,119.651672188,Wind Onshore,0.0,PQ
+475 Wind Onshore,0,134.800517856,Wind Onshore,0.0,PQ
+476 Wind Onshore,6,29.5508022611,Wind Onshore,0.0,PQ
+477 Wind Onshore,6,10.763986748,Wind Onshore,0.0,PQ
+478 Wind Onshore,6,0.211614489114,Wind Onshore,0.0,PQ
+479 Wind Onshore,0,41.0786982606,Wind Onshore,0.0,PQ
+480 Wind Onshore,0,12.0197862477,Wind Onshore,0.0,PQ
+481 Wind Onshore,0,37.466518157,Wind Onshore,0.0,PQ
+482 Wind Onshore,0,39.3953665018,Wind Onshore,0.0,PQ
+483 Wind Onshore,1,5.98760147471,Wind Onshore,0.0,PQ
+484 Wind Onshore,1,5.67979087386,Wind Onshore,0.0,PQ
+485 Wind Onshore,1,25.9924891673,Wind Onshore,0.0,PQ
+486 Wind Onshore,1,7.45450093216,Wind Onshore,0.0,PQ
+487 Wind Onshore,1,7.95800152789,Wind Onshore,0.0,PQ
+488 Wind Onshore,13,0.00131066478912,Wind Onshore,0.0,PQ
+489 Wind Onshore,0,88.2646125587,Wind Onshore,0.0,PQ
+490 Wind Onshore,0,33.260903116,Wind Onshore,0.0,PQ
+491 Wind Onshore,1,1.39975698126,Wind Onshore,0.0,PQ
+492 Wind Onshore,10,6.97236853525,Wind Onshore,0.0,PQ
+493 Wind Onshore,10,4.73049465924,Wind Onshore,0.0,PQ
+494 Wind Onshore,10,1.93101668749,Wind Onshore,0.0,PQ
+495 Wind Onshore,8,219.092115221,Wind Onshore,0.0,PQ
+2_220kV Wind Onshore,0,21.3664022656,Wind Onshore,0.0,PQ
+5_220kV Wind Onshore,0,68.762601706,Wind Onshore,0.0,PQ
+10_220kV Wind Onshore,2,480.698670974,Wind Onshore,0.0,PQ
+12_220kV Wind Onshore,2,334.885742705,Wind Onshore,0.0,PQ
+13_220kV Wind Onshore,4,13.279826168,Wind Onshore,0.0,PQ
+15_220kV Wind Onshore,4,0.0342484524703,Wind Onshore,0.0,PQ
+18_220kV Wind Onshore,7,227.66202248,Wind Onshore,0.0,PQ
+20_220kV Wind Onshore,8,12.0589307388,Wind Onshore,0.0,PQ
+22_220kV Wind Onshore,8,1289.24118792,Wind Onshore,0.0,PQ
+24_220kV Wind Onshore,8,99.4400143411,Wind Onshore,0.0,PQ
+26_220kV Wind Onshore,8,86.7132172475,Wind Onshore,0.0,PQ
+30_220kV Wind Onshore,8,98.4341164973,Wind Onshore,0.0,PQ
+32_220kV Wind Onshore,5,238.321957679,Wind Onshore,0.0,PQ
+37_220kV Wind Onshore,5,392.815157911,Wind Onshore,0.0,PQ
+42_220kV Wind Onshore,7,99.1031638333,Wind Onshore,0.0,PQ
+46_220kV Wind Onshore,2,0.833608678014,Wind Onshore,0.0,PQ
+52_220kV Wind Onshore,13,0.171578405746,Wind Onshore,0.0,PQ
+56_220kV Wind Onshore,13,0.715522464707,Wind Onshore,0.0,PQ
+61_220kV Wind Onshore,12,103.00507623,Wind Onshore,0.0,PQ
+68_220kV Wind Onshore,10,8.98169605456,Wind Onshore,0.0,PQ
+69_220kV Wind Onshore,13,25.0367994661,Wind Onshore,0.0,PQ
+74_220kV Wind Onshore,2,758.547933152,Wind Onshore,0.0,PQ
+78_220kV Wind Onshore,5,89.4774107804,Wind Onshore,0.0,PQ
+86_220kV Wind Onshore,6,7.52357781345,Wind Onshore,0.0,PQ
+87_220kV Wind Onshore,11,95.4376729474,Wind Onshore,0.0,PQ
+94_220kV Wind Onshore,6,59.2568089536,Wind Onshore,0.0,PQ
+95_220kV Wind Onshore,6,68.1988383832,Wind Onshore,0.0,PQ
+96_220kV Wind Onshore,6,24.0689205783,Wind Onshore,0.0,PQ
+99_220kV Wind Onshore,3,64.9377498058,Wind Onshore,0.0,PQ
+100_220kV Wind Onshore,3,155.126607127,Wind Onshore,0.0,PQ
+104_220kV Wind Onshore,11,0.654438393951,Wind Onshore,0.0,PQ
+105_220kV Wind Onshore,11,50.0548224713,Wind Onshore,0.0,PQ
+106_220kV Wind Onshore,11,2.00267243918,Wind Onshore,0.0,PQ
+107_220kV Wind Onshore,11,0.246199309224,Wind Onshore,0.0,PQ
+117_220kV Wind Onshore,11,5.30905864691,Wind Onshore,0.0,PQ
+120_220kV Wind Onshore,6,101.498472549,Wind Onshore,0.0,PQ
+123_220kV Wind Onshore,11,17.9517371195,Wind Onshore,0.0,PQ
+124_220kV Wind Onshore,11,2.40268588876,Wind Onshore,0.0,PQ
+125_220kV Wind Onshore,11,0.711206857594,Wind Onshore,0.0,PQ
+128_220kV Wind Onshore,3,218.884211419,Wind Onshore,0.0,PQ
+129_220kV Wind Onshore,11,5.2999386857,Wind Onshore,0.0,PQ
+138_220kV Wind Onshore,11,5.68501661608,Wind Onshore,0.0,PQ
+143_220kV Wind Onshore,6,2.09615495407,Wind Onshore,0.0,PQ
+156_220kV Wind Onshore,11,23.7891713059,Wind Onshore,0.0,PQ
+157_220kV Wind Onshore,6,65.0074668763,Wind Onshore,0.0,PQ
+159_220kV Wind Onshore,12,78.9652647132,Wind Onshore,0.0,PQ
+160_220kV Wind Onshore,12,159.165074052,Wind Onshore,0.0,PQ
+165_220kV Wind Onshore,6,11.9801821685,Wind Onshore,0.0,PQ
+184_220kV Wind Onshore,11,8.36260839263,Wind Onshore,0.0,PQ
+191_220kV Wind Onshore,11,1.39894761524,Wind Onshore,0.0,PQ
+195_220kV Wind Onshore,11,0.390879959804,Wind Onshore,0.0,PQ
+201_220kV Wind Onshore,8,250.480113476,Wind Onshore,0.0,PQ
+220_220kV Wind Onshore,6,12.1229743482,Wind Onshore,0.0,PQ
+231_220kV Wind Onshore,9,0.0358333813701,Wind Onshore,0.0,PQ
+232_220kV Wind Onshore,1,5.59260608432,Wind Onshore,0.0,PQ
+233_220kV Wind Onshore,1,18.681964382,Wind Onshore,0.0,PQ
+236_220kV Wind Onshore,13,0.0531461245219,Wind Onshore,0.0,PQ
+247_220kV Wind Onshore,1,17.5108302983,Wind Onshore,0.0,PQ
+248_220kV Wind Onshore,6,3.59964866908,Wind Onshore,0.0,PQ
+250_220kV Wind Onshore,6,0.0299096483521,Wind Onshore,0.0,PQ
+251_220kV Wind Onshore,6,0.563547347789,Wind Onshore,0.0,PQ
+252_220kV Wind Onshore,6,2.89934039102,Wind Onshore,0.0,PQ
+261_220kV Wind Onshore,13,1.14291745916,Wind Onshore,0.0,PQ
+264_220kV Wind Onshore,1,5.56985592836,Wind Onshore,0.0,PQ
+267_220kV Wind Onshore,11,0.118937830652,Wind Onshore,0.0,PQ
+272_220kV Wind Onshore,8,782.463701225,Wind Onshore,0.0,PQ
+279_220kV Wind Onshore,5,84.6228380201,Wind Onshore,0.0,PQ
+281_220kV Wind Onshore,5,229.927503412,Wind Onshore,0.0,PQ
+282_220kV Wind Onshore,5,83.5571752494,Wind Onshore,0.0,PQ
+292_220kV Wind Onshore,5,404.486732631,Wind Onshore,0.0,PQ
+303_220kV Wind Onshore,0,66.9207172853,Wind Onshore,0.0,PQ
+307_220kV Wind Onshore,13,0.000282085714083,Wind Onshore,0.0,PQ
+308_220kV Wind Onshore,10,89.0700055742,Wind Onshore,0.0,PQ
+312_220kV Wind Onshore,1,105.800801794,Wind Onshore,0.0,PQ
+315_220kV Wind Onshore,1,2.28667590888,Wind Onshore,0.0,PQ
+317_220kV Wind Onshore,1,0.15481733758,Wind Onshore,0.0,PQ
+322_220kV Wind Onshore,9,8.16533291814,Wind Onshore,0.0,PQ
+332_220kV Wind Onshore,4,0.938928397166,Wind Onshore,0.0,PQ
+334_220kV Wind Onshore,5,45.9721869349,Wind Onshore,0.0,PQ
+336_220kV Wind Onshore,5,188.822835863,Wind Onshore,0.0,PQ
+338_220kV Wind Onshore,4,26.7659131433,Wind Onshore,0.0,PQ
+351_220kV Wind Onshore,4,56.406717084,Wind Onshore,0.0,PQ
+353_220kV Wind Onshore,4,15.4380419165,Wind Onshore,0.0,PQ
+360_220kV Wind Onshore,3,0.065259330574,Wind Onshore,0.0,PQ
+362_220kV Wind Onshore,9,0.0051931708536,Wind Onshore,0.0,PQ
+382_220kV Wind Onshore,10,107.008141438,Wind Onshore,0.0,PQ
+384_220kV Wind Onshore,4,155.221920322,Wind Onshore,0.0,PQ
+385_220kV Wind Onshore,10,64.1300521047,Wind Onshore,0.0,PQ
+391_220kV Wind Onshore,10,23.0517859404,Wind Onshore,0.0,PQ
+403_220kV Wind Onshore,9,0.0277114755375,Wind Onshore,0.0,PQ
+404_220kV Wind Onshore,9,0.00632964140695,Wind Onshore,0.0,PQ
+413_220kV Wind Onshore,13,0.0288099331934,Wind Onshore,0.0,PQ
+421_220kV Wind Onshore,13,1.28680397051,Wind Onshore,0.0,PQ
+450_220kV Wind Onshore,6,0.670542049842,Wind Onshore,0.0,PQ
+458_220kV Wind Onshore,6,0.0465395074554,Wind Onshore,0.0,PQ
+1 Solar,0,79.6742560609,Solar,0.0,PQ
+3 Solar,0,31.1791155392,Solar,0.0,PQ
+4 Solar,0,40.212665684,Solar,0.0,PQ
+6 Solar,0,20.3045209459,Solar,0.0,PQ
+7 Solar,0,26.1592506043,Solar,0.0,PQ
+8 Solar,8,68.4254026128,Solar,0.0,PQ
+9 Solar,8,44.4785577653,Solar,0.0,PQ
+11 Solar,2,103.998682344,Solar,0.0,PQ
+14 Solar,4,41.3867255852,Solar,0.0,PQ
+16 Solar,0,84.3780121085,Solar,0.0,PQ
+17 Solar,2,79.0551550636,Solar,0.0,PQ
+19 Solar,1,183.821408516,Solar,0.0,PQ
+21 Solar,8,37.3790334569,Solar,0.0,PQ
+23 Solar,8,37.369338741,Solar,0.0,PQ
+25 Solar,8,29.5166073047,Solar,0.0,PQ
+27 Solar,8,8.93177879641,Solar,0.0,PQ
+28 Solar,8,39.2614503805,Solar,0.0,PQ
+29 Solar,0,99.7401656585,Solar,0.0,PQ
+31 Solar,10,130.774402129,Solar,0.0,PQ
+33 Solar,0,201.766962889,Solar,0.0,PQ
+34 Solar,12,4.16018945038,Solar,0.0,PQ
+35 Solar,12,3.42991713565,Solar,0.0,PQ
+36 Solar,12,50.2879465505,Solar,0.0,PQ
+38 Solar,2,14.7886688836,Solar,0.0,PQ
+39 Solar,5,121.437125869,Solar,0.0,PQ
+40 Solar,7,185.545127919,Solar,0.0,PQ
+41 Solar,7,255.443429575,Solar,0.0,PQ
+43 Solar,2,362.597919288,Solar,0.0,PQ
+44 Solar,2,21.273778898,Solar,0.0,PQ
+45 Solar,2,77.0174857744,Solar,0.0,PQ
+47 Solar,2,5.21471479441,Solar,0.0,PQ
+48 Solar,2,9.57649096897,Solar,0.0,PQ
+49 Solar,0,54.0354709189,Solar,0.0,PQ
+50 Solar,0,92.4802821362,Solar,0.0,PQ
+51 Solar,10,155.333413197,Solar,0.0,PQ
+53 Solar,9,103.86577437,Solar,0.0,PQ
+54 Solar,13,40.3763462646,Solar,0.0,PQ
+55 Solar,13,25.9902423186,Solar,0.0,PQ
+57 Solar,13,24.6223726015,Solar,0.0,PQ
+58 Solar,13,112.609207037,Solar,0.0,PQ
+59 Solar,12,86.3959417736,Solar,0.0,PQ
+60 Solar,12,19.1273788624,Solar,0.0,PQ
+62 Solar,12,61.8883512149,Solar,0.0,PQ
+63 Solar,13,106.233906737,Solar,0.0,PQ
+64 Solar,4,58.2728200809,Solar,0.0,PQ
+65 Solar,5,12.8393796824,Solar,0.0,PQ
+66 Solar,4,358.676350566,Solar,0.0,PQ
+67 Solar,12,29.5317709447,Solar,0.0,PQ
+70 Solar,10,89.3005966177,Solar,0.0,PQ
+71 Solar,5,328.718571189,Solar,0.0,PQ
+72 Solar,5,243.241909161,Solar,0.0,PQ
+73 Solar,2,203.443402523,Solar,0.0,PQ
+75 Solar,5,232.127956348,Solar,0.0,PQ
+76 Solar,6,80.4037717732,Solar,0.0,PQ
+77 Solar,0,144.715972126,Solar,0.0,PQ
+79 Solar,2,153.606375759,Solar,0.0,PQ
+80 Solar,2,34.2620170352,Solar,0.0,PQ
+81 Solar,2,217.054487558,Solar,0.0,PQ
+82 Solar,12,16.3482224843,Solar,0.0,PQ
+83 Solar,8,35.1643325868,Solar,0.0,PQ
+84 Solar,8,21.8924923001,Solar,0.0,PQ
+85 Solar,6,156.277964167,Solar,0.0,PQ
+88 Solar,11,8.1510919734,Solar,0.0,PQ
+89 Solar,11,1.79196759744,Solar,0.0,PQ
+90 Solar,6,81.2499299671,Solar,0.0,PQ
+91 Solar,6,3.68518233687,Solar,0.0,PQ
+92 Solar,6,61.3154903889,Solar,0.0,PQ
+93 Solar,12,191.635296053,Solar,0.0,PQ
+97 Solar,4,59.4243426049,Solar,0.0,PQ
+98 Solar,7,48.5382676619,Solar,0.0,PQ
+101 Solar,7,119.077524519,Solar,0.0,PQ
+102 Solar,7,142.844699621,Solar,0.0,PQ
+103 Solar,11,9.84236066,Solar,0.0,PQ
+108 Solar,11,7.18318255245,Solar,0.0,PQ
+109 Solar,11,9.5608896996,Solar,0.0,PQ
+110 Solar,6,54.7900098014,Solar,0.0,PQ
+111 Solar,6,138.730049031,Solar,0.0,PQ
+112 Solar,6,2.85898664312,Solar,0.0,PQ
+113 Solar,11,4.79549373064,Solar,0.0,PQ
+114 Solar,6,86.7035713777,Solar,0.0,PQ
+115 Solar,11,25.3565007917,Solar,0.0,PQ
+116 Solar,11,7.64365313712,Solar,0.0,PQ
+118 Solar,11,45.6581688249,Solar,0.0,PQ
+119 Solar,11,26.209248478,Solar,0.0,PQ
+121 Solar,11,16.3630315106,Solar,0.0,PQ
+122 Solar,11,43.4771775464,Solar,0.0,PQ
+126 Solar,11,42.0249070995,Solar,0.0,PQ
+127 Solar,11,19.3952363453,Solar,0.0,PQ
+130 Solar,11,19.4912494116,Solar,0.0,PQ
+131 Solar,11,6.05227179856,Solar,0.0,PQ
+132 Solar,11,18.5716563093,Solar,0.0,PQ
+133 Solar,11,6.42055374372,Solar,0.0,PQ
+134 Solar,11,10.8112029419,Solar,0.0,PQ
+135 Solar,6,27.9762174524,Solar,0.0,PQ
+136 Solar,6,28.1838273805,Solar,0.0,PQ
+137 Solar,11,193.234776211,Solar,0.0,PQ
+139 Solar,11,6.86558614609,Solar,0.0,PQ
+140 Solar,6,10.6310697811,Solar,0.0,PQ
+141 Solar,11,4.92036804098,Solar,0.0,PQ
+142 Solar,11,6.68963671768,Solar,0.0,PQ
+144 Solar,11,1.91202440048,Solar,0.0,PQ
+145 Solar,11,8.05638783349,Solar,0.0,PQ
+146 Solar,11,5.69359712972,Solar,0.0,PQ
+147 Solar,6,20.7171111431,Solar,0.0,PQ
+148 Solar,11,8.93845403313,Solar,0.0,PQ
+149 Solar,11,65.1824653363,Solar,0.0,PQ
+150 Solar,11,11.8788620772,Solar,0.0,PQ
+151 Solar,11,10.1964958266,Solar,0.0,PQ
+152 Solar,11,66.6139926948,Solar,0.0,PQ
+153 Solar,11,121.671046677,Solar,0.0,PQ
+154 Solar,11,12.4525836658,Solar,0.0,PQ
+155 Solar,6,32.4862488557,Solar,0.0,PQ
+158 Solar,11,25.8748930976,Solar,0.0,PQ
+161 Solar,12,67.4333290023,Solar,0.0,PQ
+162 Solar,11,9.64304372622,Solar,0.0,PQ
+163 Solar,11,19.1661348612,Solar,0.0,PQ
+164 Solar,6,25.1814057028,Solar,0.0,PQ
+166 Solar,6,29.114828087,Solar,0.0,PQ
+167 Solar,6,12.1621880467,Solar,0.0,PQ
+168 Solar,11,29.1835928188,Solar,0.0,PQ
+169 Solar,11,2.23765189247,Solar,0.0,PQ
+170 Solar,11,5.02370478794,Solar,0.0,PQ
+171 Solar,11,11.7306227274,Solar,0.0,PQ
+172 Solar,11,3.41768401337,Solar,0.0,PQ
+173 Solar,11,11.7659600244,Solar,0.0,PQ
+174 Solar,11,11.1448823949,Solar,0.0,PQ
+175 Solar,11,3.73270979541,Solar,0.0,PQ
+176 Solar,11,17.4348273992,Solar,0.0,PQ
+177 Solar,7,109.345623408,Solar,0.0,PQ
+178 Solar,6,23.4815557252,Solar,0.0,PQ
+179 Solar,2,176.928964154,Solar,0.0,PQ
+180 Solar,2,161.276649117,Solar,0.0,PQ
+181 Solar,2,84.0705616914,Solar,0.0,PQ
+182 Solar,2,18.431240768,Solar,0.0,PQ
+183 Solar,8,47.5302099481,Solar,0.0,PQ
+185 Solar,11,10.7907104783,Solar,0.0,PQ
+186 Solar,11,2.68010525828,Solar,0.0,PQ
+187 Solar,11,5.63130043544,Solar,0.0,PQ
+188 Solar,11,1.87938058935,Solar,0.0,PQ
+189 Solar,9,91.7766704254,Solar,0.0,PQ
+190 Solar,13,186.94217135,Solar,0.0,PQ
+192 Solar,7,138.604086709,Solar,0.0,PQ
+193 Solar,11,3.04032494127,Solar,0.0,PQ
+194 Solar,11,1.60064915912,Solar,0.0,PQ
+196 Solar,11,1.57820666119,Solar,0.0,PQ
+197 Solar,11,48.6597169142,Solar,0.0,PQ
+198 Solar,6,2.87787743383,Solar,0.0,PQ
+199 Solar,6,5.22728175119,Solar,0.0,PQ
+200 Solar,11,3.92704342258,Solar,0.0,PQ
+202 Solar,6,72.6779347262,Solar,0.0,PQ
+203 Solar,11,111.043024571,Solar,0.0,PQ
+204 Solar,6,62.4049705273,Solar,0.0,PQ
+205 Solar,6,10.5799252948,Solar,0.0,PQ
+206 Solar,11,4.09103357811,Solar,0.0,PQ
+207 Solar,6,47.970380957,Solar,0.0,PQ
+208 Solar,6,31.23366266,Solar,0.0,PQ
+209 Solar,0,83.1733681904,Solar,0.0,PQ
+210 Solar,0,13.8872934732,Solar,0.0,PQ
+211 Solar,3,226.804107757,Solar,0.0,PQ
+212 Solar,3,71.3804125043,Solar,0.0,PQ
+213 Solar,10,52.1481022426,Solar,0.0,PQ
+214 Solar,13,17.3006198894,Solar,0.0,PQ
+215 Solar,13,39.8924684097,Solar,0.0,PQ
+216 Solar,13,9.18976482456,Solar,0.0,PQ
+217 Solar,7,40.5756460295,Solar,0.0,PQ
+218 Solar,7,74.9224344102,Solar,0.0,PQ
+219 Solar,6,81.0354832754,Solar,0.0,PQ
+221 Solar,12,112.018080105,Solar,0.0,PQ
+222 Solar,12,18.1587294633,Solar,0.0,PQ
+223 Solar,13,116.696893662,Solar,0.0,PQ
+224 Solar,13,116.477465463,Solar,0.0,PQ
+225 Solar,3,228.386530018,Solar,0.0,PQ
+226 Solar,0,26.5015733691,Solar,0.0,PQ
+227 Solar,1,86.2365746488,Solar,0.0,PQ
+228 Solar,13,53.6568323407,Solar,0.0,PQ
+229 Solar,13,23.1327737351,Solar,0.0,PQ
+230 Solar,1,53.342089814,Solar,0.0,PQ
+234 Solar,9,136.821485252,Solar,0.0,PQ
+235 Solar,9,25.6063102247,Solar,0.0,PQ
+237 Solar,3,5.35610593423,Solar,0.0,PQ
+238 Solar,3,55.8258151624,Solar,0.0,PQ
+239 Solar,3,37.2971956496,Solar,0.0,PQ
+240 Solar,10,25.1498061516,Solar,0.0,PQ
+241 Solar,10,48.5877681047,Solar,0.0,PQ
+242 Solar,10,127.647586328,Solar,0.0,PQ
+245 Solar,10,52.0517875922,Solar,0.0,PQ
+246 Solar,10,6.76177981575,Solar,0.0,PQ
+249 Solar,6,11.7078004149,Solar,0.0,PQ
+253 Solar,6,26.2886918355,Solar,0.0,PQ
+254 Solar,3,226.257418351,Solar,0.0,PQ
+255 Solar,3,183.631946845,Solar,0.0,PQ
+256 Solar,3,7.21385449034,Solar,0.0,PQ
+257 Solar,13,75.6388526054,Solar,0.0,PQ
+258 Solar,0,90.7750732185,Solar,0.0,PQ
+259 Solar,0,42.3125380802,Solar,0.0,PQ
+260 Solar,13,155.279397297,Solar,0.0,PQ
+262 Solar,1,156.979011577,Solar,0.0,PQ
+265 Solar,6,82.9282512593,Solar,0.0,PQ
+266 Solar,4,301.614349192,Solar,0.0,PQ
+268 Solar,6,19.4889665285,Solar,0.0,PQ
+269 Solar,10,54.0671688866,Solar,0.0,PQ
+270 Solar,12,82.1519469094,Solar,0.0,PQ
+271 Solar,12,21.3295659833,Solar,0.0,PQ
+273 Solar,8,2.85527347592,Solar,0.0,PQ
+274 Solar,8,36.2687832585,Solar,0.0,PQ
+275 Solar,3,55.7508443105,Solar,0.0,PQ
+276 Solar,3,84.3085014161,Solar,0.0,PQ
+277 Solar,12,0.456443333038,Solar,0.0,PQ
+278 Solar,5,65.2833137834,Solar,0.0,PQ
+280 Solar,2,220.758669251,Solar,0.0,PQ
+283 Solar,10,51.3671639748,Solar,0.0,PQ
+284 Solar,10,151.902129991,Solar,0.0,PQ
+285 Solar,12,383.858473404,Solar,0.0,PQ
+286 Solar,0,60.6556523832,Solar,0.0,PQ
+287 Solar,6,77.3752768096,Solar,0.0,PQ
+288 Solar,9,153.887449491,Solar,0.0,PQ
+289 Solar,6,89.4394256267,Solar,0.0,PQ
+290 Solar,2,194.473407228,Solar,0.0,PQ
+291 Solar,2,116.049525596,Solar,0.0,PQ
+293 Solar,5,33.5259472314,Solar,0.0,PQ
+294 Solar,5,66.6389544354,Solar,0.0,PQ
+295 Solar,0,35.869318087,Solar,0.0,PQ
+296 Solar,0,25.6191621951,Solar,0.0,PQ
+297 Solar,0,0.986841253211,Solar,0.0,PQ
+298 Solar,0,3.77532544167,Solar,0.0,PQ
+299 Solar,0,31.2155911865,Solar,0.0,PQ
+300 Solar,12,172.123236393,Solar,0.0,PQ
+301 Solar,0,25.9637060018,Solar,0.0,PQ
+302 Solar,0,67.2193133171,Solar,0.0,PQ
+304 Solar,10,218.703564343,Solar,0.0,PQ
+305 Solar,13,22.1918482816,Solar,0.0,PQ
+306 Solar,13,18.4162831018,Solar,0.0,PQ
+309 Solar,10,136.190504425,Solar,0.0,PQ
+310 Solar,13,79.2700055257,Solar,0.0,PQ
+311 Solar,13,408.37422005,Solar,0.0,PQ
+313 Solar,5,46.2770010595,Solar,0.0,PQ
+314 Solar,1,93.8077865618,Solar,0.0,PQ
+316 Solar,1,197.087429677,Solar,0.0,PQ
+318 Solar,1,311.473266956,Solar,0.0,PQ
+319 Solar,1,156.546089273,Solar,0.0,PQ
+320 Solar,13,114.687410687,Solar,0.0,PQ
+321 Solar,9,48.4439464501,Solar,0.0,PQ
+323 Solar,5,107.077621671,Solar,0.0,PQ
+324 Solar,2,90.1366736759,Solar,0.0,PQ
+325 Solar,2,21.9947694651,Solar,0.0,PQ
+326 Solar,2,112.249862957,Solar,0.0,PQ
+327 Solar,2,99.8112078997,Solar,0.0,PQ
+328 Solar,4,95.5908999584,Solar,0.0,PQ
+329 Solar,4,159.818571632,Solar,0.0,PQ
+330 Solar,4,235.581664439,Solar,0.0,PQ
+331 Solar,4,479.248155829,Solar,0.0,PQ
+333 Solar,8,276.640075051,Solar,0.0,PQ
+335 Solar,5,272.215344887,Solar,0.0,PQ
+337 Solar,4,533.823158688,Solar,0.0,PQ
+339 Solar,13,88.5771395366,Solar,0.0,PQ
+340 Solar,5,197.787397172,Solar,0.0,PQ
+341 Solar,5,111.203655583,Solar,0.0,PQ
+342 Solar,5,199.45798322,Solar,0.0,PQ
+343 Solar,5,80.0706265568,Solar,0.0,PQ
+344 Solar,5,78.4850441808,Solar,0.0,PQ
+345 Solar,5,97.8729744075,Solar,0.0,PQ
+346 Solar,2,7.06706321303,Solar,0.0,PQ
+347 Solar,2,9.94901011501,Solar,0.0,PQ
+348 Solar,2,10.7390924222,Solar,0.0,PQ
+349 Solar,4,240.920274276,Solar,0.0,PQ
+350 Solar,4,275.412619907,Solar,0.0,PQ
+352 Solar,4,195.868212622,Solar,0.0,PQ
+354 Solar,4,123.060645601,Solar,0.0,PQ
+355 Solar,3,9.48628233579,Solar,0.0,PQ
+356 Solar,3,24.0580395312,Solar,0.0,PQ
+357 Solar,3,1.41216689344,Solar,0.0,PQ
+358 Solar,3,1.17103382504,Solar,0.0,PQ
+359 Solar,3,8.91430562005,Solar,0.0,PQ
+361 Solar,3,41.7228166946,Solar,0.0,PQ
+363 Solar,6,6.61764092982,Solar,0.0,PQ
+364 Solar,11,3.33585971783,Solar,0.0,PQ
+365 Solar,2,10.4345225167,Solar,0.0,PQ
+366 Solar,13,63.4117651656,Solar,0.0,PQ
+367 Solar,13,14.8357577621,Solar,0.0,PQ
+368 Solar,9,51.1022503929,Solar,0.0,PQ
+369 Solar,8,79.2867662718,Solar,0.0,PQ
+370 Solar,3,21.0067488094,Solar,0.0,PQ
+371 Solar,3,11.3051921841,Solar,0.0,PQ
+372 Solar,3,15.1825713303,Solar,0.0,PQ
+373 Solar,4,399.133201245,Solar,0.0,PQ
+374 Solar,6,23.2049103442,Solar,0.0,PQ
+375 Solar,13,21.4693567656,Solar,0.0,PQ
+376 Solar,0,28.1564825237,Solar,0.0,PQ
+377 Solar,13,118.262711802,Solar,0.0,PQ
+378 Solar,13,33.0312281458,Solar,0.0,PQ
+379 Solar,13,74.1394082622,Solar,0.0,PQ
+380 Solar,0,53.4082985092,Solar,0.0,PQ
+381 Solar,13,47.3452596402,Solar,0.0,PQ
+383 Solar,10,180.894957129,Solar,0.0,PQ
+386 Solar,0,62.5726417247,Solar,0.0,PQ
+387 Solar,0,61.9531425507,Solar,0.0,PQ
+388 Solar,0,30.4451691568,Solar,0.0,PQ
+389 Solar,10,280.614896696,Solar,0.0,PQ
+390 Solar,4,173.515675268,Solar,0.0,PQ
+392 Solar,11,1.5383477261,Solar,0.0,PQ
+393 Solar,1,79.7135796057,Solar,0.0,PQ
+394 Solar,1,196.679379837,Solar,0.0,PQ
+395 Solar,1,170.831583767,Solar,0.0,PQ
+396 Solar,1,131.456153348,Solar,0.0,PQ
+397 Solar,10,56.5650540612,Solar,0.0,PQ
+398 Solar,8,81.5919504805,Solar,0.0,PQ
+399 Solar,13,74.1012522785,Solar,0.0,PQ
+400 Solar,6,30.3035516899,Solar,0.0,PQ
+401 Solar,8,43.2989213414,Solar,0.0,PQ
+402 Solar,8,69.2632549986,Solar,0.0,PQ
+405 Solar,9,27.7247677283,Solar,0.0,PQ
+406 Solar,9,69.8900097171,Solar,0.0,PQ
+409 Solar,13,26.5606245666,Solar,0.0,PQ
+410 Solar,1,81.3619621142,Solar,0.0,PQ
+411 Solar,6,102.529569026,Solar,0.0,PQ
+412 Solar,8,109.809789706,Solar,0.0,PQ
+414 Solar,8,6.41796892856,Solar,0.0,PQ
+415 Solar,8,12.6293305345,Solar,0.0,PQ
+416 Solar,9,25.5809127568,Solar,0.0,PQ
+417 Solar,4,183.749132895,Solar,0.0,PQ
+418 Solar,4,132.975197331,Solar,0.0,PQ
+422 Solar,13,22.9826318392,Solar,0.0,PQ
+423 Solar,9,7.46863292826,Solar,0.0,PQ
+424 Solar,13,19.2646857571,Solar,0.0,PQ
+425 Solar,0,32.3842943932,Solar,0.0,PQ
+426 Solar,0,31.4360021066,Solar,0.0,PQ
+427 Solar,13,3.74984023399,Solar,0.0,PQ
+428 Solar,2,120.215573965,Solar,0.0,PQ
+429 Solar,11,9.51469636955,Solar,0.0,PQ
+430 Solar,11,37.6190969078,Solar,0.0,PQ
+431 Solar,11,48.5405800132,Solar,0.0,PQ
+432 Solar,1,7.95644447902,Solar,0.0,PQ
+433 Solar,1,37.6069157472,Solar,0.0,PQ
+434 Solar,1,30.1167105203,Solar,0.0,PQ
+435 Solar,2,2.24116723731,Solar,0.0,PQ
+436 Solar,9,121.687485113,Solar,0.0,PQ
+437 Solar,9,63.6543584058,Solar,0.0,PQ
+438 Solar,13,41.2295969441,Solar,0.0,PQ
+439 Solar,13,27.3744152868,Solar,0.0,PQ
+440 Solar,8,25.3943741814,Solar,0.0,PQ
+441 Solar,5,84.1636035878,Solar,0.0,PQ
+442 Solar,5,26.86114381,Solar,0.0,PQ
+443 Solar,12,32.5128258133,Solar,0.0,PQ
+444 Solar,12,30.0637291945,Solar,0.0,PQ
+445 Solar,6,138.236316083,Solar,0.0,PQ
+446 Solar,7,68.0977716531,Solar,0.0,PQ
+447 Solar,7,98.2891409367,Solar,0.0,PQ
+448 Solar,6,2.04128815414,Solar,0.0,PQ
+449 Solar,11,6.45337371893,Solar,0.0,PQ
+451 Solar,6,2.75944832878,Solar,0.0,PQ
+452 Solar,3,54.5646653518,Solar,0.0,PQ
+453 Solar,3,52.6484439662,Solar,0.0,PQ
+454 Solar,11,1.68385355098,Solar,0.0,PQ
+455 Solar,11,9.02528346733,Solar,0.0,PQ
+456 Solar,11,3.55441515269,Solar,0.0,PQ
+457 Solar,11,7.83757575517,Solar,0.0,PQ
+459 Solar,11,4.93667191188,Solar,0.0,PQ
+460 Solar,11,1.13571664617,Solar,0.0,PQ
+461 Solar,6,8.37432949145,Solar,0.0,PQ
+462 Solar,6,1.75288097417,Solar,0.0,PQ
+463 Solar,11,38.4674700625,Solar,0.0,PQ
+464 Solar,11,4.53579937256,Solar,0.0,PQ
+465 Solar,11,5.12064063763,Solar,0.0,PQ
+466 Solar,11,6.94095668978,Solar,0.0,PQ
+467 Solar,11,5.86546800139,Solar,0.0,PQ
+468 Solar,11,47.5101752353,Solar,0.0,PQ
+469 Solar,11,5.25539819324,Solar,0.0,PQ
+470 Solar,6,16.9376711255,Solar,0.0,PQ
+471 Solar,11,4.14121117669,Solar,0.0,PQ
+472 Solar,6,91.3351836439,Solar,0.0,PQ
+473 Solar,6,24.8426974,Solar,0.0,PQ
+474 Solar,0,30.8363184682,Solar,0.0,PQ
+475 Solar,0,38.1469896962,Solar,0.0,PQ
+476 Solar,6,46.5682001194,Solar,0.0,PQ
+477 Solar,6,31.3475721608,Solar,0.0,PQ
+478 Solar,6,0.14062786392,Solar,0.0,PQ
+479 Solar,0,45.2572344968,Solar,0.0,PQ
+480 Solar,0,14.824594689,Solar,0.0,PQ
+481 Solar,0,18.2704986262,Solar,0.0,PQ
+482 Solar,0,12.0004959782,Solar,0.0,PQ
+483 Solar,1,78.1145093775,Solar,0.0,PQ
+484 Solar,1,133.539659181,Solar,0.0,PQ
+485 Solar,1,281.819662447,Solar,0.0,PQ
+486 Solar,1,135.492385271,Solar,0.0,PQ
+487 Solar,1,79.1844275783,Solar,0.0,PQ
+488 Solar,13,9.16060720929,Solar,0.0,PQ
+489 Solar,0,72.3565226403,Solar,0.0,PQ
+490 Solar,0,28.8936368193,Solar,0.0,PQ
+491 Solar,1,50.4778661943,Solar,0.0,PQ
+492 Solar,10,32.8746763897,Solar,0.0,PQ
+493 Solar,10,20.2594855058,Solar,0.0,PQ
+494 Solar,10,8.18979902657,Solar,0.0,PQ
+495 Solar,8,101.236915064,Solar,0.0,PQ
+2_220kV Solar,0,6.78252247482,Solar,0.0,PQ
+5_220kV Solar,0,15.9445613219,Solar,0.0,PQ
+10_220kV Solar,2,159.570248092,Solar,0.0,PQ
+12_220kV Solar,2,277.793547711,Solar,0.0,PQ
+13_220kV Solar,4,186.387377279,Solar,0.0,PQ
+15_220kV Solar,4,120.486097306,Solar,0.0,PQ
+18_220kV Solar,7,61.1612999846,Solar,0.0,PQ
+20_220kV Solar,8,9.95471989703,Solar,0.0,PQ
+22_220kV Solar,8,230.400934825,Solar,0.0,PQ
+24_220kV Solar,8,66.1161367928,Solar,0.0,PQ
+26_220kV Solar,8,21.8361627105,Solar,0.0,PQ
+30_220kV Solar,8,36.5183261461,Solar,0.0,PQ
+32_220kV Solar,5,135.324360757,Solar,0.0,PQ
+37_220kV Solar,5,96.6101777695,Solar,0.0,PQ
+42_220kV Solar,7,65.6688094022,Solar,0.0,PQ
+46_220kV Solar,2,1.50988418606,Solar,0.0,PQ
+52_220kV Solar,13,4.80483205253,Solar,0.0,PQ
+56_220kV Solar,13,11.0049726358,Solar,0.0,PQ
+61_220kV Solar,12,38.0755601028,Solar,0.0,PQ
+68_220kV Solar,10,46.7223785366,Solar,0.0,PQ
+69_220kV Solar,13,44.2391882093,Solar,0.0,PQ
+74_220kV Solar,2,383.418198179,Solar,0.0,PQ
+78_220kV Solar,5,62.3356431164,Solar,0.0,PQ
+86_220kV Solar,6,6.00797041814,Solar,0.0,PQ
+87_220kV Solar,11,134.60573289,Solar,0.0,PQ
+94_220kV Solar,6,89.4256193232,Solar,0.0,PQ
+95_220kV Solar,6,103.003683059,Solar,0.0,PQ
+96_220kV Solar,6,18.9808285849,Solar,0.0,PQ
+99_220kV Solar,3,104.495096936,Solar,0.0,PQ
+100_220kV Solar,3,70.7548700462,Solar,0.0,PQ
+104_220kV Solar,11,3.65255829765,Solar,0.0,PQ
+105_220kV Solar,11,93.133764568,Solar,0.0,PQ
+106_220kV Solar,11,10.6514426275,Solar,0.0,PQ
+107_220kV Solar,11,1.30943921024,Solar,0.0,PQ
+117_220kV Solar,11,17.9962458899,Solar,0.0,PQ
+120_220kV Solar,6,83.0754127741,Solar,0.0,PQ
+123_220kV Solar,11,10.1932288932,Solar,0.0,PQ
+124_220kV Solar,11,0.866492729284,Solar,0.0,PQ
+125_220kV Solar,11,7.9175966632,Solar,0.0,PQ
+128_220kV Solar,3,67.7239512483,Solar,0.0,PQ
+129_220kV Solar,11,8.92855603065,Solar,0.0,PQ
+138_220kV Solar,11,12.7268921642,Solar,0.0,PQ
+143_220kV Solar,6,6.62525480382,Solar,0.0,PQ
+156_220kV Solar,11,38.7248883709,Solar,0.0,PQ
+157_220kV Solar,6,131.682322011,Solar,0.0,PQ
+159_220kV Solar,12,59.7917587743,Solar,0.0,PQ
+160_220kV Solar,12,35.9869279893,Solar,0.0,PQ
+165_220kV Solar,6,13.5798950324,Solar,0.0,PQ
+184_220kV Solar,11,17.8414810649,Solar,0.0,PQ
+191_220kV Solar,11,3.15017898174,Solar,0.0,PQ
+195_220kV Solar,11,0.731379679998,Solar,0.0,PQ
+201_220kV Solar,8,66.5941206082,Solar,0.0,PQ
+220_220kV Solar,6,18.7854907646,Solar,0.0,PQ
+231_220kV Solar,9,2.67419933099,Solar,0.0,PQ
+232_220kV Solar,1,99.0742349063,Solar,0.0,PQ
+233_220kV Solar,1,201.733891319,Solar,0.0,PQ
+236_220kV Solar,13,15.0481177122,Solar,0.0,PQ
+247_220kV Solar,1,236.871780957,Solar,0.0,PQ
+248_220kV Solar,6,14.4044085501,Solar,0.0,PQ
+250_220kV Solar,6,0.0283784055798,Solar,0.0,PQ
+251_220kV Solar,6,0.534696196047,Solar,0.0,PQ
+252_220kV Solar,6,2.75090688335,Solar,0.0,PQ
+261_220kV Solar,13,81.9291796662,Solar,0.0,PQ
+263_220kV Solar,1,2.17499037282,Solar,0.0,PQ
+264_220kV Solar,1,226.383636562,Solar,0.0,PQ
+267_220kV Solar,11,1.33159165748,Solar,0.0,PQ
+272_220kV Solar,8,189.722791697,Solar,0.0,PQ
+279_220kV Solar,5,100.619409992,Solar,0.0,PQ
+281_220kV Solar,5,144.682716774,Solar,0.0,PQ
+282_220kV Solar,5,134.937779598,Solar,0.0,PQ
+292_220kV Solar,5,155.990147453,Solar,0.0,PQ
+303_220kV Solar,0,94.4706110276,Solar,0.0,PQ
+307_220kV Solar,13,41.9758348816,Solar,0.0,PQ
+308_220kV Solar,10,298.346979291,Solar,0.0,PQ
+312_220kV Solar,1,393.914066526,Solar,0.0,PQ
+315_220kV Solar,1,251.944938615,Solar,0.0,PQ
+317_220kV Solar,1,10.3782881081,Solar,0.0,PQ
+322_220kV Solar,9,50.3514256534,Solar,0.0,PQ
+332_220kV Solar,4,849.576943945,Solar,0.0,PQ
+334_220kV Solar,5,233.477991242,Solar,0.0,PQ
+336_220kV Solar,5,242.698642978,Solar,0.0,PQ
+338_220kV Solar,4,255.834575646,Solar,0.0,PQ
+351_220kV Solar,4,262.446697862,Solar,0.0,PQ
+353_220kV Solar,4,91.306831625,Solar,0.0,PQ
+360_220kV Solar,3,26.5925612809,Solar,0.0,PQ
+362_220kV Solar,9,12.1265109683,Solar,0.0,PQ
+382_220kV Solar,10,199.184531465,Solar,0.0,PQ
+384_220kV Solar,4,579.835050797,Solar,0.0,PQ
+385_220kV Solar,10,122.315702959,Solar,0.0,PQ
+391_220kV Solar,10,30.6064358953,Solar,0.0,PQ
+403_220kV Solar,9,23.6450711466,Solar,0.0,PQ
+404_220kV Solar,9,17.7333803642,Solar,0.0,PQ
+413_220kV Solar,13,72.0714562574,Solar,0.0,PQ
+421_220kV Solar,13,59.6608875033,Solar,0.0,PQ
+450_220kV Solar,6,1.68150652412,Solar,0.0,PQ
+458_220kV Solar,6,0.116706305643,Solar,0.0,PQ
