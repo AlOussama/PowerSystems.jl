@@ -17,7 +17,7 @@ for NNF in 1:24
             println("==========================================")
             println("Simulation: NNF = ",NNF, " Fall = ",fall)
             println("==========================================")
-            sys = System(string("02_Berechnungen/03_Berechnung_Verteilung_ohne_Optimierung/System/Output/",fall,"/DynamicSystem_NNF_",NNF,"_Fall_",fall, ".json"))
+            sys = System(string("PowerSystems.jl/Marius/02_Berechnungen/03_Berechnung_Verteilung_ohne_Optimierung/System/Output/",fall,"/DynamicSystem_NNF_",NNF,"_Fall_",fall, ".json"))
 
         # res = solve_powerflow(sys)
         # print(res)
@@ -104,7 +104,7 @@ for NNF in 1:24
             results_omega.o12 = o12[2]
             results_omega.o13 = o13[2]
         elseif fall ==1
-            o0 = PSID.get_state_series(results, ("conv_0", :ω));
+            # o0 = PSID.get_state_series(results, ("conv_0", :ω));
             o1 = PSID.get_state_series(results, ("gen_1", :ω));
             o2 = PSID.get_state_series(results, ("gen_2", :ω));
             o3 = PSID.get_state_series(results, ("gen_3", :ω));
@@ -344,7 +344,7 @@ for NNF in 1:24
             results_omega.o5 = o5[2]
 
         end
-        CSV.write(string("02_Berechnungen/03_Berechnung_Verteilung_ohne_Optimierung/Ergebnisse/omega/",fall,"/results_omega_NNF_",NNF,"_Fall_",fall,".csv"),results_omega)
+        CSV.write(string("PowerSystems.jl/Marius/02_Berechnungen/03_Berechnung_Verteilung_ohne_Optimierung/Ergebnisse/omega/",fall,"/results_omega_NNF_",NNF,"_Fall_",fall,".csv"),results_omega)
 
 
         results_voltage = DataFrame()
@@ -364,7 +364,7 @@ for NNF in 1:24
         results_voltage.v12 = v12[2]
         results_voltage.v13 = v13[2]
 
-        CSV.write(string("02_Berechnungen/03_Berechnung_Verteilung_ohne_Optimierung/Ergebnisse/voltage/",fall,"/results_voltage_NNF_",NNF,"_Fall_",fall,".csv"),results_voltage)
+        CSV.write(string("PowerSystems.jl/Marius/02_Berechnungen/03_Berechnung_Verteilung_ohne_Optimierung/Ergebnisse/voltage/",fall,"/results_voltage_NNF_",NNF,"_Fall_",fall,".csv"),results_voltage)
 
 
         results_vangle = DataFrame()
@@ -384,6 +384,6 @@ for NNF in 1:24
         results_vangle.va12 = va12[2]
         results_vangle.va13 = va13[2]
 
-        CSV.write(string("02_Berechnungen/03_Berechnung_Verteilung_ohne_Optimierung/Ergebnisse/voltage_angle/",fall,"/results_vangle_NNF_",NNF,"_Fall_",fall,".csv"),results_vangle)
+        CSV.write(string("PowerSystems.jl/Marius/02_Berechnungen/03_Berechnung_Verteilung_ohne_Optimierung/Ergebnisse/voltage_angle/",fall,"/results_vangle_NNF_",NNF,"_Fall_",fall,".csv"),results_vangle)
     end
 end

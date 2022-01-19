@@ -8,7 +8,7 @@ function generateStaticGenerator(sys,NNF,df_loads,df_inst_leistung,df_re_gen,df_
     conv_name_x = Vector{Union{Missing, String}}(missing, length(bus_numbers));
 
     println("=====EINSELEN SYS ", NNF)
-    sys = System("03_PyPSA2PowerSytsems/Output/SciGrid_14Bus.json")
+    sys = System("PowerSystems.jl/Marius/03_PyPSA2PowerSytsems/Output/SciGrid_14Bus.json")
     println("=== ENDE EINLESEN ===")
 
     for i in 1:length(bus_numbers);
@@ -38,7 +38,7 @@ function generateStaticGenerator(sys,NNF,df_loads,df_inst_leistung,df_re_gen,df_
                 available = true,
                 status = true,
                 bus = get_bus(sys, bus_name),
-                active_power = 3.0,
+                active_power = 3.0, # --> Hier müssen Loads eingefügt werden
                 reactive_power = 0.5,
                 rating = 1.0,
                 prime_mover = PrimeMovers.GT,
@@ -97,7 +97,7 @@ function generateStaticGenerator(sys,NNF,df_loads,df_inst_leistung,df_re_gen,df_
                 available = true,
                 bus = get_bus(sys, bus_name),
                 model = LoadModels.ConstantPower,
-                active_power = 1.0,
+                active_power = 1.0, # --> Hier müssen Loads eingefügt werden...
                 reactive_power = 0.3,
                 base_power = 100.0 ,
                 max_active_power = max_loads,
@@ -236,6 +236,6 @@ function generateStaticGenerator(sys,NNF,df_loads,df_inst_leistung,df_re_gen,df_
 
             
     end
-    to_json(sys,string("02_Berechnungen/03_Berechnung_Verteilung_ohne_Optimierung/System/Output/",fall,"/DynamicSystem_NNF_",NNF,"_Fall_",fall, ".json"),force = true)
+    to_json(sys,string("PowerSystems.jl/Marius/02_Berechnungen/03_Berechnung_Verteilung_ohne_Optimierung/System/Output/",fall,"/DynamicSystem_NNF_",NNF,"_Fall_",fall, ".json"),force = true)
     # return sys, gen_name_x, load_name_x
 end

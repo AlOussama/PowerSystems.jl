@@ -10,16 +10,16 @@ using DataFrames
 using CSV
 
 
-include("C:/Users/mariu/OneDrive/Dokumente/Masterarbeit Lokal/02_Berechnungen/03_Berechnung_Verteilung_ohne_Optimierung/generateStaticGenerator.jl")
-include("C:/Users/mariu/OneDrive/Dokumente/Masterarbeit Lokal/02_Berechnungen/03_Berechnung_Verteilung_ohne_Optimierung/deleadThermGen.jl")
+include("C:/Users/mariu/OneDrive - bwedu/1 Universität Stuttgart/Masterarbeit/PowerSystems.jl/Marius/02_Berechnungen/03_Berechnung_Verteilung_ohne_Optimierung/generateStaticGenerator.jl")
+include("C:/Users/mariu/OneDrive - bwedu/1 Universität Stuttgart/Masterarbeit/PowerSystems.jl/Marius/02_Berechnungen/03_Berechnung_Verteilung_ohne_Optimierung/deleadThermGen.jl")
 println("===START===")
 
 NNF = 1;
-sys = System("03_PyPSA2PowerSytsems/Output/SciGrid_14Bus.json")
-df_loads = DataFrame(CSV.File("02_Berechnungen/03_Berechnung_Verteilung_ohne_Optimierung/System/Input/01_PyPSA/loads_input_pu.csv"))
-df_inst_leistung = DataFrame(CSV.File("02_Berechnungen/03_Berechnung_Verteilung_ohne_Optimierung/System/Input/01_PyPSA/inst_leistung_pu.csv"))
-df_re_gen = DataFrame(CSV.File("02_Berechnungen/03_Berechnung_Verteilung_ohne_Optimierung/System/Input/01_PyPSA/re_gen_pu.csv"))
-df_thermal_gen = DataFrame(CSV.File("02_Berechnungen/03_Berechnung_Verteilung_ohne_Optimierung/System/Input/01_PyPSA/thermal_gen_pu.csv"))
+sys = System("PowerSystems.jl/Marius/03_PyPSA2PowerSytsems/Output/SciGrid_14Bus.json")
+df_loads = DataFrame(CSV.File("PowerSystems.jl/Marius/02_Berechnungen/03_Berechnung_Verteilung_ohne_Optimierung/System/Input/01_PyPSA/loads_input_pu.csv"))
+df_inst_leistung = DataFrame(CSV.File("PowerSystems.jl/Marius/02_Berechnungen/03_Berechnung_Verteilung_ohne_Optimierung/System/Input/01_PyPSA/inst_leistung_pu.csv"))
+df_re_gen = DataFrame(CSV.File("PowerSystems.jl/Marius/02_Berechnungen/03_Berechnung_Verteilung_ohne_Optimierung/System/Input/01_PyPSA/re_gen_pu.csv"))
+df_thermal_gen = DataFrame(CSV.File("PowerSystems.jl/Marius/02_Berechnungen/03_Berechnung_Verteilung_ohne_Optimierung/System/Input/01_PyPSA/thermal_gen_pu.csv"))
 
 # println(df_re_gen)
 # println(df_re_gen[NNF,2])
@@ -33,7 +33,7 @@ for NNF in 1:len_loads
 end
 
 for NNF in 1:len_loads
-    sys = System(string("02_Berechnungen/03_Berechnung_Verteilung_ohne_Optimierung/System/Output/0/DynamicSystem_NNF_",NNF,"_Fall_0.json"))
+    sys = System(string("PowerSystems.jl/Marius/02_Berechnungen/03_Berechnung_Verteilung_ohne_Optimierung/System/Output/0/DynamicSystem_NNF_",NNF,"_Fall_0.json"))
     delThermGen(sys,NNF)
 end
 
