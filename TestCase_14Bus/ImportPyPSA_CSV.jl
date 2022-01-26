@@ -9,7 +9,7 @@ using PowerSimulationsDynamics
 PSID = PowerSimulationsDynamics
 
 
-include("C:/Users/mariu/OneDrive - bwedu/1 Universität Stuttgart/Masterarbeit/PyPSA2PowerSystems/add_dyn_components_v1.0.jl")
+include("C:/Users/mariu/OneDrive - bwedu/1 Universität Stuttgart/Masterarbeit/TestCase_14Bus/add_dyn_components_v1.0.jl")
 
 # PATH = "04_PyPSA2PowerSystems/00_Input"
 println("====START====")
@@ -44,3 +44,14 @@ PSID.execute!(
     Rodas4(), # OrdinaryDiffEq Paket für Mass Matrix Solver (ODE Solver)
     dtmax = 0.01,
 );
+
+res = read_results(sim)
+
+active_power = get_activepower_series(res,"Gas_1").*100
+reactive_power = get_reactivepower_series(res,"Gas_1").*100
+active_power_1 = get_activepower_series(res,"Gas_2").*100
+reactive_power_1 = get_reactivepower_series(res,"Gas_2").*100
+
+df_results = DataFrame(:time => active_power[1],:active_power => active_power[2], :reactive_power => reactive_power[2])
+
+CSV.write("02_PowerSystems/Output_PowerSystem/results.csv", df_results)

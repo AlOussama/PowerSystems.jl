@@ -21,7 +21,7 @@ nodes()=[
     Bus(
         number = 2, # Node Number
         name = "Node2", # Node Name
-        bustype = "PQ", # Node Type
+        bustype = "PV", # Node Type
         angle = 0, # Voltage Angle
         magnitude = 1.0, # Voltage in p.u
         voltage_limits = (min = 0.9, max = 1.05), #Voltage Limits
@@ -35,7 +35,7 @@ add_components!(sys,nodes())
 
 branches() =[
     Line(   
-    name = "2-3", # Name
+    name = "1-2", # Name
     available = true, # Availability
     active_power_flow = 0.0 , # Activ Powerflow
     reactive_power_flow = 0.0, # Reactive Powerflow
@@ -60,25 +60,26 @@ RenewableDispatch(
             reactive_power = 0.0,
             rating = 1.2,
             prime_mover = PrimeMovers.PVe,
-            reactive_power_limits = (min = 0.0, max = 0.0),
+            reactive_power_limits = (min = -10.0, max = 10.0),
             base_power = 100.0,
             operation_cost = TwoPartCost(22.0, 0.0),
             power_factor = 1.0
         ),
 
         # RenewableDispatch(
-        #     name = "000001_Wind Onshore_02",
+        #     name = "00001_Solar_4",
         #     available = true,
         #     bus = get_component(Bus, sys,"Node2"),
-        #     active_power = 1.5,
-        #     reactive_power = 1.0,
+        #     active_power = 0.3,
+        #     reactive_power = 0.1,
         #     rating = 1.2,
-        #     prime_mover = PrimeMovers.WT,
-        #     reactive_power_limits = (min = 0.0, max = 0.0),
+        #     prime_mover = PrimeMovers.PVe,
+        #     reactive_power_limits = (min = -10.0, max = 10.0),
         #     base_power = 100.0,
         #     operation_cost = TwoPartCost(22.0, 0.0),
         #     power_factor = 1.0
         # ),
+
 ];
 
 add_components!(sys,new_renewable())

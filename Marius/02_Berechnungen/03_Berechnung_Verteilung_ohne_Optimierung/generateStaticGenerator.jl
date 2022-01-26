@@ -118,7 +118,7 @@ function generateStaticGenerator(sys,NNF,df_loads,df_inst_leistung,df_re_gen,df_
                 operation_cost = TwoPartCost(22.0, 0.0),
                 power_factor = 1.0
             )
-            add_component!(sys,re_stat_gen)
+            # add_component!(sys,re_stat_gen)
 
         invertertype = "GridForming"
         
@@ -232,7 +232,7 @@ function generateStaticGenerator(sys,NNF,df_loads,df_inst_leistung,df_re_gen,df_
             freq_estimator = re_freq_estimator,
             filter = re_filter,
         );
-        add_component!(sys, inverter, re_stat_gen);
+        # add_component!(sys, inverter, re_stat_gen);
 
             
     end
